@@ -1,0 +1,59 @@
+== Description ==
+
+<h3>This plugin is your window into the LESS compiler used by the PageLines Framework!</h3>
+
+<h4>Load, Modify, &amp; Save any* LESS or CSS File on Your Site!</h4>
+LESS Developer automatically scans key directories in your installation to look for .less and .css files that are intended to be customized.
+
+<p>Scanned directories include:</p>
+<ul>
+	<li>The active child theme's root directory
+		<ul>
+			<li>Child theme LESS overrides <code>/less</code></li>
+			<li>Child theme sections <code>/sections/{section-name}/</code></li>
+		</ul>
+	</li>
+	<li>PageLines Customize plugin directory <code>/wp-content/plugins/pagelines-customize/</code></li>
+	<li>LESS Developer Sandbox <code>/wp-content/less-dev/</code><br />
+		(<em>This directory is not automatically created for you, but will be scanned if it exists (manually created)</em>)
+	</li>
+</ul>
+<p>Core PageLines directories are not scanned as those files are not intended to be manipulated.</p>
+
+<h3>New With v1.1</h3>
+<p>Scanned directories can be extended by your plugins or other extensions! Read more here: <a href="http://bit.ly/how-to-use-less-developer-with-your-project" target="_blank">How to use LESS Developer with your project</a></p>
+
+
+<h4>Compile LESS into CSS via ajax in Seconds</h4>
+<p>No waiting for page reloads!  This is big time saver when debugging something that isn't working.</p>
+
+<h4>Extremely Helpful in Investigating Problematic Code</h4>
+
+<p>As great as it is working with LESS with PageLines, something enevitibly goes wrong and many of us including myself have spent a lot of time hitting our head on the wall trying to figure out why something isn't showing up the way it should. <em>This is one of the main reasons I created this plugin.</em></p>
+<p>The "problem" with the LESS compiler is that when it comes across something that doesn't make sense to it, but doesn't prevent it from parsing the code it just ignores that code or instruction. That isn't necessarily a bad thing, as with LESS we're creating dynamicly generated code, so it needs to be able to handle stuff like that.  The problem is just that it doesn't tell you about it (in the form of an error) unless there is a parse error.</p>
+<p>Even with parse errors, it still takes a page reload to know that you got one, and then it can take one or sometime two more refreshes just to see that error clear up.</p>
+
+<strong>With LESS Developer, you see the output in a matter of seconds.</strong>
+
+<h4>The Code, Your Code, and Nothing But The Code!</h4>
+<p>LESS Developer only outputs the compiled output of your input LESS, while still making core framework variables, colors, &amp; mixins available to your input code!</p>
+
+<h4>Not Just For Developers</h4>
+
+<p>This plugin is for everyone!  Everyone who wants to use LESS that is -- but who doesn't?  Since the integration of LESS with the PageLines framework, we've all been spoiled with this stuff.  Who wants to go back to using plain CSS? I sure don't!</p>
+
+<p>LESS Developer can be a great learning tool for someone new to the language.  Experiment!  Write some code and compile it, see what comes out?</p>
+
+
+
+
+== Changelog ==
+
+= 1.1.1 =
+* Extended directories change
+
+= 1.1 =
+* Scanned directories are now extendable!
+
+= 1.0 =
+* Initial release

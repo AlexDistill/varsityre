@@ -1,0 +1,171 @@
+#compiling {
+  vertical-align: text-top;
+  margin-left: 5px;
+}
+#mode_toggle {
+  float: right;
+}
+.plugin-title .version {
+  font-family: Consolas, Monaco, monospace;
+  font-size: 14px;
+}
+.lessdev-wrap {
+  display: block;
+}
+.lessdev-wrap .less-container,
+.lessdev-wrap .css-container {
+  width: 50%;
+  margin-right: margin;
+  display: inline-block;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -ms-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+}
+.lessdev-wrap .less-container .CodeMirror,
+.lessdev-wrap .css-container .CodeMirror {
+  width: 100%;
+}
+.lessdev-wrap .less-container .CodeMirror-scroll,
+.lessdev-wrap .css-container .CodeMirror-scroll {
+  height: 450px;
+}
+@media (max-width: 767px) {
+  .lessdev-wrap .less-container,
+  .lessdev-wrap .css-container {
+    width: 100%;
+  }
+  .lessdev-wrap .less-container .area-title,
+  .lessdev-wrap .css-container .area-title {
+    text-align: center;
+  }
+}
+.lessdev-wrap.fullwidth .less-container,
+.lessdev-wrap.fullwidth .css-container {
+  width: 100%;
+}
+.lessdev-wrap .less-container {
+  float: left;
+}
+.lessdev-wrap .less-container .area-title {
+  float: right;
+  padding-right: 2em;
+}
+.lessdev-wrap .less-container .controls {
+  float: left;
+}
+.lessdev-wrap .css-container {
+  float: right;
+}
+.lessdev-wrap .css-container .area-title {
+  float: left;
+  padding-left: 2em;
+}
+.lessdev-wrap .css-container .controls {
+  float: right;
+  text-align: right;
+}
+.lessdev-wrap .instructions {
+  text-align: center;
+}
+.lessdev-wrap .lessdev-footer {
+  margin: 1em 0 0;
+  text-align: center;
+}
+.cssdev-wrap .area-title {
+  float: right;
+  margin-right: 2em;
+}
+.CodeMirror-scroll .CodeMirror {
+  width: 100%;
+}
+.CodeMirror-scroll .CodeMirror-scroll {
+  height: 450px;
+}
+.message-container {
+  height: 3em;
+  width: 75%;
+  margin: 0 auto;
+}
+#message {
+  text-align: center;
+  padding: 1px 30px;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.6);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border-width: 1px;
+  border-style: solid;
+  margin: 0;
+}
+#message.success {
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+  color: #468847;
+}
+#message.error {
+  background-color: #fcf8e3;
+  border-color: #fbeed5;
+  color: #c09853;
+}
+#message p {
+  margin: 0.5em 0;
+}
+#copy_css_container {
+  float: right;
+}
+.toggles {
+  margin-bottom: 6px;
+}
+.toggles .button-secondary {
+  height: auto;
+  font-size: 1.5em;
+  padding: 1px 1em 0;
+  line-height: 26px !important;
+}
+.toggles .reset-btn {
+  float: right;
+}
+.file-select-wrap {
+  display: inline-block;
+}
+.controls {
+  width: 100%;
+  padding: .5em 0;
+}
+.controls select.file-select {
+  height: 24px;
+  margin: 0;
+  border-color: #BBB;
+  position: relative;
+  top: -1px;
+}
+.controls .save,
+.controls .cancel,
+.controls .loading {
+  display: none;
+}
+.controls .loading {
+  vertical-align: text-bottom;
+  padding: 0 4px;
+}
+.area-title {
+  display: inline-block;
+}
+.ext-dirs-info {
+  color: #808080;
+  font-variant: small-caps;
+  font-size: 14px;
+}
+.ext-dirs-info a {
+  text-decoration: none;
+  color: #808080;
+}
+.ext-dirs-info a:hover {
+  text-decoration: underline;
+}
+.ext-dirs-info .status {
+  color: #4D4D4D;
+  font-weight: bold;
+}

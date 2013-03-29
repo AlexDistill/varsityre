@@ -1,0 +1,15 @@
+.soapboxes .fboxgraphic{
+	position: relative;
+	text-align: center;
+}
+	.soapboxes .fboxgraphic img{
+		position: absolute;
+		display: inline-block;
+		bottom: 0;
+	}
+	
+	
+	.soapbox-links a{
+		display: inline-block;
+		margin-right: 8px;
+	}

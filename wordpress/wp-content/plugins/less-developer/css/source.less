@@ -1,0 +1,169 @@
+#compiling {
+	vertical-align: text-top;
+	margin-left: 5px;
+}
+#mode_toggle {
+	float: right;
+}
+
+.plugin-title .version {
+	font-family: Consolas, Monaco, monospace;
+	font-size: 14px;
+}
+
+.lessdev-wrap {
+	display: block;
+	
+	.less-container,
+	.css-container {
+		.editors ();
+		width: 50%;
+		margin-right: margin;
+		display: inline-block;
+		.transition(all .5s);
+		@media (max-width: @resPortraitTablet) {
+			width: 100%;
+			.area-title {
+				text-align:center;
+			}
+		}
+	}
+	&.fullwidth {
+		.less-container,
+		.css-container { width: 100% }
+	}
+	.less-container {
+		float:left;
+
+		.area-title {
+			float: right;
+			padding-right: 2em;
+		}
+		.controls { float: left; }
+	}
+	.css-container {
+		float:right;
+
+		.area-title {
+			float: left;
+			padding-left: 2em;
+		}
+		.controls {
+			float: right;
+			text-align: right;
+		}
+	}
+	.instructions {
+		text-align: center;
+	}
+	.lessdev-footer {
+		margin: 1em 0 0;
+		text-align: center;
+	}
+}
+// CSS
+.cssdev-wrap {
+	.area-title {
+		float: right;
+		margin-right: 2em;
+	}	
+}
+// global stuff
+.CodeMirror-scroll {
+	.editors ();
+}
+// alert
+.message-container {
+	height: 3em;
+	width: 75%;
+	margin: 0 auto;
+}
+#message {
+	text-align: center;
+	padding: 1px 30px;
+	text-shadow: 0 1px 0 fade(white, 60);
+	.border-radius(4px);
+	border-width: 1px;
+	border-style: solid;
+	margin: 0;
+	
+	&.success {
+		background-color: @successBackground;
+		border-color: @successBorder;
+		color: @successText;	
+	}
+	&.error {
+		background-color: @warningBackground;
+		border-color: @warningBorder;
+		color: @warningText;
+	}	
+	p { margin: 0.5em 0 }
+}
+#copy_css_container {
+	float: right;
+}
+.toggles {
+  margin-bottom: 6px;
+	.button-secondary {
+	  height: auto;
+	  font-size: 1.5em;
+	  padding: 1px 1em 0;
+	  line-height: 26px !important;
+	}
+	.reset-btn {
+	  float: right;
+	}
+}
+.file-select-wrap {
+	display: inline-block;
+}
+.controls {
+	width: 100%;
+	padding: .5em 0;
+	
+	select.file-select {
+	  height: 24px;
+	  margin: 0;
+	  border-color: #BBB;
+	  position: relative;
+	  top: -1px;
+	}
+
+	.save,
+	.cancel,
+	.loading {
+		display: none;
+	}
+	.loading {
+		vertical-align: text-bottom;
+		padding: 0 4px;
+	}
+}
+.area-title {
+	display: inline-block;
+}
+
+.ext-dirs-info {
+	color: #808080;
+	a {
+		text-decoration: none;
+		color: #808080;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+	
+	font-variant: small-caps;
+	font-size: 14px;
+	
+	.status {
+		color: #4D4D4D;
+		font-weight: bold;
+	}
+}
+
+// mixins
+.editors () {
+	.CodeMirror { width: 100%; }
+	.CodeMirror-scroll { height: 450px; }
+}
