@@ -1,0 +1,28 @@
+== Description ==
+Adds a simple contact form shortcode to be used anywhere on your site.
+
+= Here are a few examples =
+<br /><em>[poppy]</em><br />Creates a standard button with the word "Contact"<br /><br /><em>[poppy]Email me![/poppy]</em><br />Same as above with custom text.<br /><br /><em>[poppy type="a"]Contact me.[/poppy]</em><br />This uses a standard HTML link.<br /><br /><em>[poppy type="button" class="btn-important"]Email.[/poppy]</em><br />Here we are using the bootstrap button, and adding a class.<br /><br /><em>[poppy type="label" class="label-warning"]CONTACT[/poppy]</em><br />What about a bootstrap label?<br /><br /><em>[poppy type="i" class="icon-envelope icon-4x"]&nbsp;[/poppy]</em><br />Finally a giant font-awesome envelope!
+
+
+== Changelog ==
+
+= 1.3 =
+
+* Add support for ie8/ie9.
+* Fix translation mistake.
+
+= 1.2 =
+
+* Add better descriptions.
+* Make options translatable.
+* include auto generated pot file!
+
+= 1.1 =
+
+* Remove From headers, fixes SPF issue.
+* Use stripslashes.
+
+= 1.0 =
+
+* Release.

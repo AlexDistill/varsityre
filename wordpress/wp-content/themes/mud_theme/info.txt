@@ -1,0 +1,11 @@
+== Description ==
+
+MUD - Minimum Usable Design
+
+This holy-smokes-it's-free theme is completely free to use, abuse, molest, and whatever else you want to do to it. It's free for personal use, and commercial use, and was designed to give you an idea of what's possible with some CSS foo and PageLines Framework.
+
+Theme is part of the FREE PageLines Theming Kit available at the <a href="http://demo.pagelines.com/framework/theming" target="_blank">Theming Center</a>.
+
+== Changelog ==
+
+* Initial release

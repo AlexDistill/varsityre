@@ -1,0 +1,31 @@
+== Description ==
+
+Use your WordPress media library to generate a responsive, scrolling gallery with this section.
+
+To use simply place the section in a page template, upload media using WordPress' media uploader and set options. That's pretty much it. It couldn't be any easier. 
+
+<strong>To Use:</strong>
+1. Upload some images using the standard Wordpress image uploader on any post or page. Don't worry about any of the settings, those won't be used.
+2. Insert the gallery on the corresponding page template using drag/drop.
+3. Choose a layout, but this is optional, as the layout will default to thumbnails on the bottom.
+4. Have some coffee.
+
+*FREE with <a href="http://pagelines.com/plus">PageLines Plus</a>.
+
+== Changelog ==
+
+== 1.1.2 ==
+* Fixed bg from bleeding into Carousel section
+
+
+== 1.1.1 ==
+* Added demo link
+* New nav BG
+* Fixed blank state
+
+== 1.1 ==
+* Responsive Enhancements
+* Additional Options
+
+== 1.0 ==
+* Initial release

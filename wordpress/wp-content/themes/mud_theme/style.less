@@ -1,0 +1,554 @@
+    ////////////////////////////////////////////////////////////////////////////////////
+   //                                                                                //
+  //           GLOBAL VARIABLES AND PARAMETRICS                                     //
+ //                                                                                //
+////////////////////////////////////////////////////////////////////////////////////
+// The transparent white backgrounds are a subtle gradient. You can change their colors with the two variables below. Everything else will update accordingly.
+@mud-content-bg:        rgba(255,255,255,0.4);
+@mud-content-bg2:       rgba(255,255,255,0.65);
+// The font sizes of the headings are all relative to the base font size. To increase all font sizes, only increase @mud_FontSize and @mudLineHeight accordingly.
+@mud_FontSize:          16px;
+@mud_LineHeight:        24px;
+// Dont change any of these. They are proportional to @mud_FontSize
+@mud_h1Size:          	@mud_FontSize * 2 + 2;
+@mud_h2Size:          	@mud_FontSize * 1.8 + 2;
+@mud_h3Size:          	@mud_FontSize * 1.55 + 2;
+@mud_h4Size:          	@mud_FontSize * 1.3 + 2;
+@mud_h5Size:          	@mud_FontSize * 1.1 + 2;
+@mud_h6Size:          	@mud_FontSize;
+
+// Content Background Mixin
+.swiss-back {
+	padding:15px;
+	#gradient > .vertical (@mud-content-bg,@mud-content-bg2);
+	.box-sizing(border-box);
+	.box-shadow(~"inset 0 1px 0 rgba(255, 255, 255, 0.8),inset 1px 0 0 rgba(255, 255, 255, 0.8),0 1px 0 rgba(0, 0, 0, 0.05),1px 0 0 rgba(0, 0, 0, 0.05)");
+}
+
+
+    ////////////////////////////////////////////////////////////////////////////////////
+   //                                                                                //
+  //           START UNICORN DREAMS                                                 //
+ //                                                                                //
+////////////////////////////////////////////////////////////////////////////////////
+
+body,body.fixed_width {
+
+	// Typography
+	p   { font-size:@mud_FontSize;line-height:@mud_LineHeight;}
+		h1  { font-size:@mud_h1Size; }
+			h2  { font-size:@mud_h3Size; }
+				h3  { font-size:@mud_h4Size; }
+					h4  { font-size:@mud_h5Size; }
+						h5  { font-size:@mud_h6Size; }
+							h6  { font-size:@mud_FontSize; }
+
+}
+
+// Sidebar Fix
+#sidebar-wrap {
+	max-width:@pl-sidebar-width;
+	position:fixed;
+}
+
+// Styled Entries
+.hentry-pad,
+.post-nav {
+	.swiss-back;
+
+	h1.entry-title,
+	h2.entry-title,
+	h3.entry-title,
+	h4.entry-title,
+	h5.entry-title {
+		text-align:center;
+
+		a {
+			color:fadeout(@pl-link,28);
+
+			&:hover {
+				color:@pl-link;
+				.transition(color .25s linear);
+				text-decoration: none;
+			}
+		}
+	}
+
+	.previous a:hover,.next a:hover {
+		color:@pl-link;
+		.transition(color .25s linear);
+	}
+}
+.current_posts_info {
+	.swiss-back;
+
+	strong {
+		color:@pl-link;
+	}
+}
+
+// Give all sections some space
+section.copy {
+	margin: 1.6em 0 3em 0;
+}
+
+// Reset the padding on the bottom of posts for comment and read full article links
+.blog .hentry-pad {padding:15px 15px 10px 15px;}
+
+// Cool text selections
+::selection{background:@pl-link;color:@white;}
+
+// Center the metabar and capitalize
+.metabar {	
+	text-align:center;	
+	text-transform:uppercase;
+}
+
+// Read full article link, and comments link treatments
+a.continue_reading_link {
+	font-size:84%;
+	color:fadeout(@pl-link,25);
+	text-decoration:none;
+
+	&:hover {
+		.transition(color .25s linear);
+		color:@pl-link;
+		text-decoration:none;
+	}
+}
+
+// The comment ribbon
+a.comments-link {
+	font-size:84%;
+	color:lighten(@dark-base,8);
+	text-decoration:none;
+	padding:5px 0 0 16px;
+	margin-top: -5px;
+	background: url(@{plChildRoot}/img/ribbon.png) no-repeat;
+	height: 25px;
+	width: 78px;
+	position: absolute;
+	right: 11px;
+
+	&:hover {
+		color:lighten(@dark-base,5);
+		.transition(color .25s linear);
+	}
+}
+
+// Push the article and comments link down a bit
+.fpost .post-excerpt {
+	margin: .6em 0 1.5em 0;
+}
+
+// Gimme a different border color
+.widget-title, .metabar a, #morefoot .widget-title, #site #dsq-content h3, .navigation_wrap, .setup_area, .fpost .post-thumb img, .clip .clip-thumb img, .author-thumb img, ul.sf-menu ul li{
+	border-color: lighten(@dark-base,8);
+}
+
+// No border on bottom of posts
+hr, .fpost, .clip_box {
+	border-bottom:none;
+}
+
+// Image Treatments
+#boxes .shadow img, .hentry img {
+	.box-shadow( 0 2px 5px rgba(0, 0, 0, 0.3));
+
+	&:hover {
+		.transition(.25s linear);
+		opacity:0.85;
+	}
+}
+
+// Boxes Treatments
+#boxes .shadow .fboxtitle h3 a {
+	color:fadeout(@pl-link,25);
+
+	&:hover {
+		.transition(color .25s linear);
+		color:@pl-link;
+		text-decoration:none;
+	}
+}
+
+// Blockquote
+blockquote {
+	border-left:5px solid fadeout(@pl-link,25);
+}
+
+// Code
+pre,code {
+	background-color:darken(@mud-content-bg,10);
+	border:1px solid darken(@mud-content-bg,20);
+	border-radius:0;
+	color:spin(@pl-link, 85); 
+}
+
+// Forms, textarea, and buttons
+textarea,input {
+	.swiss-back;
+	font-family: Courier;
+	border:1px solid darken(@mud-content-bg,20);
+}
+
+// Custom select menu
+select {
+  -webkit-appearance: button;
+  .border-radius(2px);
+  -webkit-padding-end: 20px;
+  -webkit-padding-start: 2px;
+  -webkit-user-select: none;
+  background-image: url(@{plChildRoot}/img/arrow.png), 
+    -webkit-linear-gradient(#F8F8F8, #FFFFFF 40%, #F8F8F8);
+  background-position: 95% 50%;
+  background-repeat: no-repeat;
+  border:1px solid darken(@mud-content-bg,30);
+  color: fadeout(@pl-text,25);
+  font-size: 75%;
+  margin: 0;
+  overflow: hidden;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+// Post Comments Treatment
+#page .commentlist {
+	.swiss-back;
+
+	img.avatar {
+		margin: 0 5px 5px -58px;
+		padding: 0;
+		border-right:none;
+		border-top: 1px solid lighten(@mud-content-bg,8);
+		border-left: 1px solid lighten(@mud-content-bg,8);
+		border-bottom: 1px solid lighten(@mud-content-bg,8);
+		.box-shadow(1px 1px 3px rgba(0,0,0,0.1));
+	}
+
+	p {
+		color:fadeout(@pl-text,10);
+		font-size:84%;
+	}
+
+	li.bypostauthor,
+	blockquote,
+	.alt {
+		background-color:darken(@mud-content-bg,10);
+		border:1px solid darken(@mud-content-bg,20);
+		.box-sizing(border-box);
+	}
+
+	ul.children .even {
+		background-color:lighten(@mud-content-bg,10);
+		border:1px solid lighten(@mud-content-bg,20);
+		.box-sizing(border-box);
+	}
+}
+
+// Get rid of the site background
+#site .content {
+	background-color:transparent;
+}
+
+// Navigation under Logo
+#page .main-nav {
+	max-width:(@pl-sidebar-width / 1.25);
+	margin-top:285px;
+
+	li {
+		float:none;
+		text-align:left;
+		border-bottom:1px solid @dark-base;
+
+		a {
+			text-transform: uppercase;
+			padding-left:0;
+			color:fadeout(@pl-link,25);
+
+			&:hover {
+				color:@pl-link;
+				.transition(color .25s linear);
+			}
+		}
+	}
+
+	li.menu-decor {
+		background: url(@{plChildRoot}/img/navicon.png) no-repeat 1%;
+		opacity:0.75;
+
+		a {
+			padding-left:25px;
+
+			&:hover {
+				background: url(@{plChildRoot}/img/navicon-red.png) no-repeat 1%;
+				opacity:1;
+			}
+
+		}
+	}
+
+	li.current-menu-item {
+		background: url(@{plChildRoot}/img/navicon-red.png) no-repeat 1%;
+		opacity:0.75;
+	}
+}
+
+// Push the navigation down
+#vertical-branding {
+	.mainlogo-link img,a.plbrand.mainlogo-link{
+		margin-top:-6px; // This tucks part of the logo into the top of the browser
+		margin-left:-4px; // This is logo specific, remove if you dont need it
+	}
+}
+
+// Gallery Styling
+#page {
+	dl.gallery-item {
+
+		margin-bottom:@baseLineHeight / 2;
+
+		img {
+			border:none;
+			padding:3px;
+			.box-sizing(border-box);	
+		}
+
+		&:first-child {
+			margin-left:0;
+		}
+
+		&:last-child {
+			margin-right:0;
+		}
+	}
+}
+
+// Blog Styling
+.posts {
+
+	#page .main-nav {
+		margin-top:100px;
+	}
+
+	.widget-title {
+		font-size:86%;
+	}
+
+}
+
+// PageNavi Support
+#page .wp-pagenavi .current, #page .wp-pagenavi a:hover, #page .wp-pagenavi .extend {
+	color:fadeout(@pl-link,25);
+	background-color:@mud-content-bg;
+}
+
+// Pagination
+#page .content-pagination {
+
+	.cp-num {
+		color:fadeout(@pl-link,25);
+		background-color:darken(@mud-content-bg,10);
+
+		a {
+			background:transparent;
+
+			&:hover {
+				color:fadeout(@pl-link,25);
+			}
+		}
+	}
+}
+
+// Column Shift
+#column-wrap {
+	margin-top:65px;
+}
+
+// Reset the minimum page height to account for only 1 post, and absolute positioned menu
+#page, #dynamic-content {
+	min-height: 600px;
+}
+
+// Reset padding on top for logo to sit flush
+.fixed_width #page,#content .content-pad,#vertical-branding {
+	padding-top:0;
+	margin-top:0;
+}
+
+// Make dropdowns responsive
+li.widget_archive select,.widget_categories .postform{
+	margin:10px 0;
+	width:100%;
+}
+
+// Resets from color.less
+#site .main-nav .current-menu-ancestor a,#site .main-nav li.current-menu-ancestor ul a, #site .main-nav li.current_page_item a, #site .main-nav li.current-menu-item a, #site .main-nav li.current_page_parent a, #site .sf-menu li li, #site .sf-menu li li li,#site .main-nav li:hover, .main-nav .current-page-ancestor a, .main-nav li.current-page-ancestor ul a, .main-nav li.current_page_item a, .main-nav li.current-menu-item a, .sf-menu li li, .sf-menu li li li,#site .main-nav li a:hover,#wp-calendar thead th, #wp-calendar caption, #page .wp-pagenavi a {
+	background-color:transparent;
+	color:fadeout(@pl-link,5);
+}
+
+// Wordpress Captions
+.wp-caption {
+	background-color:darken(@mud-content-bg,10);
+	border:1px solid darken(@mud-content-bg,20);
+}
+
+// Animations
+@keyframes h-bounce {
+    from { padding-left:25px; }
+    50%  { padding-left:30px; }
+    to   { padding-left:25px; }
+}
+@-webkit-keyframes h-bounce {
+    from { padding-left:25px; }
+    50%  { padding-left:30px; }
+    to   { padding-left:25px; }
+}
+@-moz-keyframes h-bounce {
+    from { padding-left:25px; }
+    50%  { padding-left:30px; }
+    to   { padding-left:25px; }
+}
+li.menu-decor a:hover {
+  animation-name: h-bounce;
+  animation-timing-function: ease-in-out;
+  animation-duration: 0.65s;
+  animation-iteration-count: infinite;
+  -moz-animation-name: h-bounce;
+  -moz-animation-timing-function: ease-in-out;
+  -moz-animation-duration: 0.65s;
+  -moz-animation-iteration-count: infinite;
+  -webkit-animation-name: h-bounce;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-duration: 0.65s;
+  -webkit-animation-iteration-count: infinite;
+}
+
+
+// Media Queries
+@media (max-width:800px) {
+	#sidebar-wrap {
+		position:absolute;
+		max-width:100%;
+	}
+
+	#column-wrap {
+		margin-top:150px;
+	}
+
+	#page #column-main .mcolumn-pad {
+		padding:0;
+	}
+
+	.posts #page {
+
+		.main-nav {
+			max-width:75%;
+			margin-top:15px;
+			.transition(linear .4s);
+		}
+
+ 		#column-wrap {
+			margin-top:240px;
+			.transition(linear .4s);
+		}
+
+		.widget-pad {
+			padding-top:0;
+		}
+
+	}
+
+	#page .main-nav {
+		max-width:75%;
+		margin-top:15px;
+		.transition(linear .4s);
+	}
+	
+	#vertical-branding .main_nav ul li {
+		float:left;
+	}
+
+	.main_nav ul li a {
+		padding:5px 15px;
+	}
+
+	#page #vertical-branding .mainlogo-link img, #page #vertical-branding a.plbrand.mainlogo-link{
+		max-width:170px;
+		float:left;
+		margin-bottom:0;
+	}
+
+	#boxes .shadow .fboxgraphic {
+		margin:0 auto;
+	}
+
+	a.comments-link {
+		right:-4px;
+	}
+
+	#sb_primary {
+		li.widget_categories,li.widget_archive {
+			float:left;
+			width:45%;
+			margin-right:5%;
+			.box-sizing(border-box);
+			.transition(linear .4s);
+		}
+
+		li:last-child {
+			margin-right:0;
+		}
+	}
+
+	#page {
+		dl.gallery-item {
+ 
+			margin:0 auto;
+
+			img {
+				box-shadow:none;	
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 480px) {
+
+	.responsive #page .main_nav ul li {
+		text-align: left;
+		width: auto;
+		float:left;
+	}
+	
+	#vertical-branding .main_nav ul li {
+		float:left;
+	}
+
+	.responsive #page .main_nav .main-nav, #brandnav .brandnav-nav {
+		margin-top:0;
+	}
+
+	#site #page .main-nav {
+		max-width:100%;
+	
+	}
+
+	a.comments-link {
+		right:-19px;
+	}
+
+	body,body.fixed_width {
+	p   { font-size:(@mud_FontSize - 2);line-height:(@mud_LineHeight - 2);}
+		h1  { font-size:(@mud_h1Size - 2); }
+			h2  { font-size:(@mud_h3Size - 2); }
+				h3  { font-size:(@mud_h4Size - 2); }
+					h4  { font-size:(@mud_h5Size - 2); }
+						h5  { font-size:(@mud_h6Size - 2); }
+							h6  { font-size:(@mud_FontSize - 2); }
+
+	}
+}

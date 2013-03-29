@@ -1,0 +1,42 @@
+== Description ==
+
+<h4>Easily add any code anywhere using all the built in hooks!</h4>
+
+Finally the tool you have been dreaming about!!
+With this plugin you can add HTML, JS even PHP to anywhere!
+
+How does it work?
+Simple really, just select an hook from the dropdown.
+Add your HTML/JS/CSS to the textarea.
+Click save.
+Thats it!!
+
+<h4>Features</h4>
+
+* Import and export all your hooks!
+* WordPress actions.
+* Every PageLines action.
+* Dynamic actions for all your installed sections.
+* Hook priorities.
+* Assign hooks to specific pages/posts easily.
+* Toggle hooks on/off.
+* If PHP is enabled the code is sandboxed, your site will not self destruct.
+
+<em>Note: to enable PHP parsing for hooks please read the instructions in the plugin file.</em>
+
+== Changelog ==
+
+= 1.3 = 
+
+* Fix error if adminbar is disabled.
+* Add some translation support.
+
+= 1.2 =
+* Add import/export functions.
+
+= 1.1 =
+* fix php notice in admin.
+
+= 1.0 =
+
+* Release.

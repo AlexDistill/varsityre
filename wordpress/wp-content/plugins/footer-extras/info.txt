@@ -1,0 +1,22 @@
+== Description ==
+
+Footer Extras puts a few extra items below your footer area that are nice to have but don't need to be displayed prominently.
+
+• Display a dynamically generated copyright notice with the year(s) pulled from your first and last published posts.
+
+• Show your business name, address and phone (NAP) in schema.org format for local search. Still useful even if you aren't a local business.
+
+• Space for an additional line of text, ideal for web designer credit and link. 
+
+
+== Changelog ==
+
+= 1.1 =
+* Added Start Year for copyright to override dynamically getting start year from first post/page published.
+* Added Latitude and Longitude for geo-coordinate schema. Useful for Google and other search engines to properly place business on maps.
+
+= 1.0.1 =
+* Added check to make sure Pagelines is running
+
+== 1.0 ==
+* Initial release

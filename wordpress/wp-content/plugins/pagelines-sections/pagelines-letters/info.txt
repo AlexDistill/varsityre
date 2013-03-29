@@ -1,0 +1,26 @@
+== Description ==
+
+The Letters section is designed to replace your blog or other 'content' pages with a simple, and extremely readable long form content section. 
+
+Classic typography rules state geographic rules such as proportional line heights, font-sizes and line widths. The Letters section is designed to play by these rules and make for extremely readable, no-distraction content.
+
+<strong>To Use:</strong>
+1. Replace the 'content' section on any page template (especially blog!)
+2. Done!
+Bonus: Preview your new section by viewing that page template, etc.. 
+
+*FREE with <a href="http://pagelines.com/plus">PageLines Plus</a>.
+
+== Changelog ==
+
+= 1.0.4 =
+* Fix fata error if no sharebar enabled.
+
+= 1.0.2 =
+* Frame bug fix
+
+= 1.0.1 =
+* Frame bug fix
+
+= 1.0 =
+* Initial release

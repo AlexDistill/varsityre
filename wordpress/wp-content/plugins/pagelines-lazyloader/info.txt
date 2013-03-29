@@ -1,0 +1,11 @@
+== Description ==
+
+Defer image loading when image is off screen.
+
+== Changelog ==
+
+= 0.2 =
+* Add banner, box, hero, highlight to filters.
+
+= 0.1 = 
+* Initial release.

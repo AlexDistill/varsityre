@@ -1,0 +1,107 @@
+    ////////////////////////////////////////////////////////////////////////////////////
+   //                                                                                //
+  //           GLOBAL VARIABLES AND PARAMETRICS                                     //
+ //                                                                                //
+////////////////////////////////////////////////////////////////////////////////////
+@mud-base:              #6e0000;
+@mud-base-trans:        rgba(108,0,0,0.85);
+@mud-base-dk:           darken(@mud-base,8%);
+@mud-content-bg:        rgba(255,255,255,0.4);
+@mud-content-bg2:       rgba(255,255,255,0.65);
+@mud-text:              #333;
+@mud_FontSize:          16px;
+@mud_LineHeight:        24px;
+@mud_h1Size:          	@mud_FontSize * 2 + 2;
+@mud_h2Size:          	@mud_FontSize * 1.8 + 2;
+@mud_h3Size:          	@mud_FontSize * 1.55 + 2;
+@mud_h4Size:          	@mud_FontSize * 1.3 + 2;
+@mud_h5Size:          	@mud_FontSize * 1.1 + 2;
+@mud_h6Size:          	@mud_FontSize;
+
+// Content Background Mixin
+.swiss-back {
+	padding:15px;
+	#gradient > .vertical (@mud-content-bg,@mud-content-bg2);
+	.box-sizing(border-box);
+	.box-shadow(~"inset 0 1px 0 rgba(255, 255, 255, 0.8),inset 1px 0 0 rgba(255, 255, 255, 0.8),0 1px 0 rgba(0, 0, 0, 0.05),1px 0 0 rgba(0, 0, 0, 0.05)");
+}
+
+    ////////////////////////////////////////////////////////////////////////////////////
+   //                                                                                //
+  //           START UNICORN DREAMS                                                 //
+ //                                                                                //
+////////////////////////////////////////////////////////////////////////////////////
+
+.pl-authorplus-wrap{
+	max-width:100%;
+	.swiss-back;
+	.box-sizing(border-box);
+	
+	.pl-authorplus {
+
+		h1 {
+			font-size: @mud_h1Size;
+			line-height: 1;
+			color: @authorplusHeadingColor;
+			letter-spacing: -1px;
+			small{
+				display: block;
+				font-family: @plAltFont;
+				color: fadeout(@authorplusHeadingColor, 70%);
+			}
+		}
+		p {
+			margin: @baseLineHeight/4 0 @baseLineHeight;
+			font-size: @mud_FontSize + 2;
+			font-weight: 200;
+			color: @authorplusLeadColor;
+		}
+	}
+	.pl-authorplus-image{
+		margin-bottom: 0; 
+	}
+}
+
+.authorplus_image {
+  text-align:right;
+}
+
+.authorplusicons {
+
+	a {
+		margin-right:10px;
+
+		img {
+			opacity:0.5;
+
+			&:hover {
+				opacity:0.75;
+				.transition(.25s linear);
+			}
+		}
+
+		&:last-child {
+			margin-right:0;
+		}
+	}
+
+}
+
+// Media Queries
+@media (max-width:768px) {
+
+  .authorplus_image,.pl-authorplus h1, .pl-authorplus p,.authorplusicons {
+    text-align:center;
+  }
+
+  .authorplusicons {
+  	margin-bottom:@baseLineHeight;
+  }
+
+}
+
+@media (max-width:480px) {
+  .pl-authorplus-wrap {
+    padding:20px;
+  }
+}

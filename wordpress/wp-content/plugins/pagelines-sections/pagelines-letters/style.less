@@ -1,0 +1,123 @@
+@lettersRhythm = 26px;
+@lettersFontSize = 17px;
+.pl-letters-container{
+	margin: 0 auto;
+	max-width: 600px;
+	text-align: center;
+	p{
+		margin: @lettersRhythm 0;
+	}
+	.letters-nav{
+		.inav a{
+			#gradient > .vertical( @baseContrastSlight, @baseContrast);
+			border:1px solid @baseContrastDark;
+			padding: 5px 15px 4px;
+			font-size: .8em;
+			line-height: 1.1em;
+			.border-radius(3px);
+			display: block;
+			color: @textColorSubtle;
+			margin-bottom: 3px;
+			i{
+				margin: 0 2px;
+				color: @textColorLight;
+				vertical-align: middle;
+				font-size: 1.2em;
+			}
+			&:hover{
+				#gradient > .vertical( lighten(@baseContrastSlight, 5), @baseContrastSlight);
+			}
+			&:active{
+				box-shadow: inset 0 1px 3px rgba(0,0,0,.15), 0 1px 2px rgba(0,0,0,.05);
+				#gradient > .vertical( darken(@baseContrast, 10), @baseContrast);
+				border:1px solid darken(@baseContrastDark, 10);
+			}
+		} 
+		.next{
+			float: right;
+		}
+		.previous{
+			float:left;
+		}
+		margin-bottom: @lettersRhythm;
+	}
+	.letters-article{
+		.letters-title{
+			margin: @lettersRhythm 0;
+			letter-spacing: -0.03em;
+			font-size: @lettersFontSize * 2;
+			line-height: 1.1em;	
+		}
+		.letters-content{
+			margin: 0;
+			color: fadeout(@pl-text, 20%);
+			text-align: left;
+			font-size: @lettersFontSize;
+			line-height: @lettersRhythm;
+			font-weight: 300;
+			.letters-meta{
+				font-size: 13px;
+				line-height: 22px; 
+				vertical-align: bottom;
+				margin: @lettersRhythm 0;
+				.lk{
+					float: right;
+				}
+			}
+		}
+		.letters-thumb{
+			max-width: 60%;
+			margin-bottom: @lettersRhythm;
+			margin: @lettersRhythm auto;
+			text-align: center; 
+			a{
+				display: inline-block;
+				
+				
+				.transition(all .5s);
+				
+				img{
+					display: inline-block;
+					max-height: 13 * @lettersRhythm;
+					width: auto;
+
+				}
+				&.pl-frame{
+					border: 1px solid #cdcdcd;
+					padding: 5px; 
+					line-height: 5px;
+					#gradient > .vertical(@baseContrastSlight, @baseContrast);
+					box-shadow: inset 1px 1px 0 @baseLighterMore, 0 1px 4px rgba(0,0,0,.2); 
+					.border-radius(5px);
+					&:hover{
+						border-color: #aaa;
+						box-shadow: inset 1px 1px 0 @baseLighterMore, 0 1px 4px rgba(0,0,0,.5); 
+					}
+					.pl-vignette{
+						max-width: 100%;
+						.box-sizing(border-box);
+
+						&:after{
+							box-shadow: inset 0 0 8px rgba(0,0,0,.2), inset 0 0 1px rgba(0,0,0,.5);
+							.box-sizing(border-box);
+							overflow: hidden;
+							.border-radius(4px);
+						}
+						.box{
+							display: block;
+							position: static;
+							.border-radius(4px);
+							overflow: hidden;
+
+						}
+						
+					}
+				}	
+			}
+			
+		}	
+	}
+	.post-break{
+		margin: 1.5*@lettersRhythm 0;
+	}
+}

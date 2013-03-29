@@ -1,0 +1,90 @@
+# Copyright (C) 2010 Footer Extras
+# This file is distributed under the same license as the Footer Extras package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Footer Extras 1.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/footer-extras\n"
+"POT-Creation-Date: 2013-03-28 20:18:35+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2010-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: footer-extras.php:242
+msgid "Alignment of Footer Extras"
+msgstr ""
+
+#: footer-extras.php:243
+msgid "Choose the alignment for footer extras"
+msgstr ""
+
+#: footer-extras.php:245
+msgid "Footer Extras Align (Default: left)"
+msgstr ""
+
+#: footer-extras.php:254
+msgid "Show Copyright Dates"
+msgstr ""
+
+#: footer-extras.php:255
+msgid ""
+"If selected, copyright dates will be dynamically generated from the earliest "
+"post date to latest post date."
+msgstr ""
+
+#: footer-extras.php:274
+msgid "Business NAP (Name, Address, Phone)"
+msgstr ""
+
+#: footer-extras.php:275
+msgid ""
+"Setup Business Name, Address and Phone formatted with rich text snippets for "
+"local seo. If you have a Google+ Local page or your business is listed in "
+"other directories make sure that the NAP is the same, otherwise you will not "
+"get the full value of the NAP. <br /><br />You can also enter your latitude "
+"and logitude(coordinates are not displayed, just coded for geolocation). "
+"Find your coordinates at http://geocoder.us."
+msgstr ""
+
+#: footer-extras.php:285
+msgid "Business Name"
+msgstr ""
+
+#: footer-extras.php:286
+msgid "Business Street Address"
+msgstr ""
+
+#: footer-extras.php:287
+msgid "Business City"
+msgstr ""
+
+#: footer-extras.php:288
+msgid "Business State"
+msgstr ""
+
+#: footer-extras.php:289
+msgid "Business Zip"
+msgstr ""
+
+#: footer-extras.php:290
+msgid "Business Phone Number"
+msgstr ""
+
+#: footer-extras.php:291
+msgid "Address Latitude"
+msgstr ""
+
+#: footer-extras.php:292
+msgid "Address Longitude"
+msgstr ""
+
+#: footer-extras.php:301
+msgid "Show Additional Line of Text"
+msgstr ""
+
+#: footer-extras.php:302
+msgid "Area for an extra line of text at the end of your page."
+msgstr ""
+

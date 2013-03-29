@@ -1,0 +1,37 @@
+/*  
+Theme Name: Base Theme
+Theme URI: http://www.pagelines.com/
+Description: A starter child theme for PageLines.  Use this as a reference for building your own child themes for PageLines Store.
+Version: 1.0.2
+Author: PageLines
+Author URI: http://www.pagelines.com
+Tags: developer
+
+Template: pagelines
+
+*/
+
+/*
+Themes follow the basic WordPress themes header scheme with the following additions:
+
+	Template: pagelines
+	Tells wordpress this is a childtheme and where the parent files are stored.
+	
+	Demo: http://a.link.com
+	Use this to point to a demo for this product.
+	
+	External: http://a.link.com
+	Use this to point to an external site, authors home page for example.	
+*/
+
+/*
+ * File Naming Conventions
+ * -------------------------------------
+ *	style.css 		 - Main theme style file.
+ *  style.less       - All CSS and LESS syntax.
+ *  thumb.png		 - Thumbnail image used in the store and on pagelines.com for your product.
+ *  screenshot.png	 - Primary screenshot, logo or graphic for your extension item (300px by 225px).
+ *	screenshot-1.png - Additional screenshots -1 -2 -3 etc (optional).
+ *	page.example.php - Custom page template, check the file for syntax. This is autoloaded.
+ *	sections/		 - Bundle sections with your theme in this folder, each section in a seperate folder.
+ */

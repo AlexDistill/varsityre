@@ -1,0 +1,8 @@
+== Description ==
+
+A starter child theme for PageLines.  Use this as a reference for building your own child themes for PageLines Store.
+
+== Changelog ==
+
+= 1.0.2 =
+* Base release.

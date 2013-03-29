@@ -1,0 +1,25 @@
+== Description ==
+
+A continuous list of post 'pins', inspired by Pinterest. Loaded dynamically and arranged organically.
+
+*FREE with <a href="http://pagelines.com/plus">PageLines Plus</a>.
+
+== Changelog ==
+
+= 1.3 =
+* Add selector for attachment sizes.
+
+= 1.2.1 =
+* Detect lazy-loader.
+
+= 1.2 =
+* Added jQuery as a dep.
+
+= 1.1 =
+* Optimized for PageLines 2.2
+* Added info.txt
+* Class change on loading button from .button to .btn
+* Fixed overflowing links
+
+= 1.0 =
+* Initial Release
