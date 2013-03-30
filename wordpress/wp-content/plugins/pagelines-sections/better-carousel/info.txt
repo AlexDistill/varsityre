@@ -1,0 +1,23 @@
+== Description ==
+Bummed out that the default carousel section in core isn't responsive? Have no fear! A Better Carousel is here! Better Carousel takes all your favorite parts of the default carousel and builds on it with new features and a mobile first approach.
+
+<h3>Features</h3>
+<strong>Fully Responsive</strong> built for mobile with native swipe touches and a completely responsive nature. Great for mobile devices and tablets.
+
+<strong>Thumbnail Sources</strong> instantly stream images from Flickr with no additional plugins, or posts from multiple categories. You can also list custom post types, and can use it with NextGen gallery for a cool portfolio effect.
+
+<strong>Layout Options</strong> choose to display or hide the titles for a clean look, and also specify whether or not navigation controls should be displayed.
+
+<h3>Support</h3>
+Please do not leave a review as a support question; they are for reviews. I am not notified of these reviews, and I have no way to respond to you. Please <strong>do not email me for support</strong>, because you will not receive a reply. 
+
+== Changelog ==
+
+= 1.0.2 =
+* Removed default limit on number of items showing
+
+= 1.0.1 =
+* Added post offset option
+
+= 1.0 =
+* Initial release

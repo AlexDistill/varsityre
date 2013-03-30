@@ -1,0 +1,46 @@
+== Description ==
+
+Wicker; a full-width slider with optional Wordpress menu and overlay patterns.
+
+This section looks great when used in the header area, as it has optional support for Wordpress menus. It will stretch completely from left to right 100%, with optional Hero support and multiple content sources.
+
+<h3>Features</h3>
+<strong>Full Width</strong> stretches from left to right 100% and is fully responsive.
+
+<strong>Optional Menu Control</strong> optionally show a one-level Wordpress menu, with control for alignment.
+
+<strong>Optional Pattern Overlay</strong> instantly enhance any of your beautiful images with a super cool pattern overlay.
+
+<strong>Slide Options</strong> this slider is the lightest and most simple slider available. Specify up to 10 slides, set the slides to rotate automatically, or randomize them.
+
+<strong>Hero Support</strong> easily show a Hero Unit (text/image/button), and even specify whether it should use PageLines options for slides, or Wordpress Posts.
+
+<h3>Support</h3>
+Please do not leave a review as a support question; they are for reviews. I am not notified of these reviews, and I have no way to respond to you. Please <strong>do not email me for support</strong>, because you will not receive a reply. 
+
+== Changelog ==
+
+= 1.2.4 = 
+* Fixes to last update
+
+= 1.2.3 = 
+* Fixed hero not appearing
+
+= 1.2.2 =
+* bug fixes
+
+= 1.2.1 =
+* LESS fix
+
+= 1.2 =
+* Added optional Hero feature
+* Updated scripts to 1.5.3
+
+= 1.1 =
+* Added transition speed and transition delay options
+
+= 1.0.1 =
+* Fixed slides from not appearing when using page/content color
+
+= 1.0 =
+* Initial release
