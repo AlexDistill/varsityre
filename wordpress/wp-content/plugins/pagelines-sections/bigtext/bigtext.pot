@@ -1,0 +1,743 @@
+# Copyright (C) 2010 
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version:  \n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/bigtext\n"
+"POT-Creation-Date: 2013-04-01 21:18:08+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2010-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: section.php:94
+msgid "BigText Container Settings."
+msgstr ""
+
+#: section.php:95
+msgid "Control it."
+msgstr ""
+
+#: section.php:99
+msgid ""
+"Add your own <strong>Wrapper/Container</strong> CSS class.<br/>&nbsp;&nbsp;"
+"&nbsp;Try <em>wellnotrounded</em>, <em>wellnotrounded-small</em>, or "
+"<em>wellnotrounded-large</em> to get a full-width Bootstrap Well without "
+"rounded corners.<br/>&nbsp;&nbsp;&nbsp;<strong>Separate multiple custom CSS "
+"classes with a space.</strong>"
+msgstr ""
+
+#: section.php:103
+msgid ""
+"Add your own <strong>Content Area</strong> CSS class.<br/>&nbsp;&nbsp;&nbsp;"
+"Try <em>well</em> to get a Bootstrap Well.<br/>Try using <em>rounded</em> to "
+"round the corners of the background color, if chosen.<br/>&nbsp;&nbsp;&nbsp;"
+"<strong>Separate multiple custom CSS classes with a space.</strong>"
+msgstr ""
+
+#: section.php:107
+msgid "Background Color"
+msgstr ""
+
+#: section.php:111
+msgid "Background Image"
+msgstr ""
+
+#: section.php:115
+msgid ""
+"Background Image Size.<br/>&nbsp;&nbsp;&nbsp;Default = <em>None / Auto</"
+"em><br/><a href=\"https://developer.mozilla.org/en-US/docs/CSS/background-"
+"size\" target=\"_blank\">CSS background-size</a>"
+msgstr ""
+
+#: section.php:123
+msgid ""
+"Background Image Position.<br/>&nbsp;&nbsp;&nbsp;Default = <em>center "
+"center</em><br/><a href=\"https://developer.mozilla.org/en-US/docs/CSS/"
+"background-position\" target=\"_blank\">CSS background-position</a>, <a href="
+"\"http://www.w3schools.com/cssref/playit.asp?filename=playcss_background-"
+"position\" target=\"_blank\">Try It Out</a>"
+msgstr ""
+
+#: section.php:125
+msgid "Left Top"
+msgstr ""
+
+#: section.php:126
+msgid "Left Center"
+msgstr ""
+
+#: section.php:127
+msgid "Left Bottom"
+msgstr ""
+
+#: section.php:128
+msgid "Right Top"
+msgstr ""
+
+#: section.php:129
+msgid "Right Center"
+msgstr ""
+
+#: section.php:130
+msgid "Right Bottom"
+msgstr ""
+
+#: section.php:131
+msgid "Center Top"
+msgstr ""
+
+#: section.php:132
+msgid "Center Bottom"
+msgstr ""
+
+#: section.php:137
+msgid ""
+"Width of BigText area (any units: %, px, em, etc).<br/>&nbsp;&nbsp;&nbsp;"
+"Default = <em>100%</em><br/><a href=\"https://developer.mozilla.org/en-US/"
+"docs/CSS/width\" target=\"_blank\">CSS width</a>"
+msgstr ""
+
+#: section.php:141
+msgid ""
+"Max-Width of BigText area (any units: %, px, em, etc).<br/>&nbsp;&nbsp;&nbsp;"
+"Default = <em>100%</em> (which makes it responsive)<br/><a href=\"https://"
+"developer.mozilla.org/en-US/docs/CSS/max-width\" target=\"_blank\">CSS max-"
+"width</a>"
+msgstr ""
+
+#: section.php:145
+msgid ""
+"Max Font-Size (MUST BE IN PX, with or w/o \"px\")<br/>&nbsp;&nbsp;&nbsp;"
+"Default = <em>528</em>"
+msgstr ""
+
+#: section.php:149
+msgid ""
+"Min Font-Size (MUST BE IN PX, with or w/o \"px\")<br/>&nbsp;&nbsp;&nbsp;"
+"Default = Null/Zero"
+msgstr ""
+
+#: section.php:156
+msgid "BigText Default Settings to set all line options."
+msgstr ""
+
+#: section.php:157
+msgid "Set once here and/or set line-by-line to override."
+msgstr ""
+
+#: section.php:161
+msgid "Default Font"
+msgstr ""
+
+#: section.php:165
+msgid ""
+"BigText Text-Align<br/>&nbsp;&nbsp;&nbsp;Default = <em>center</em><br/><a "
+"href=\"https://developer.mozilla.org/en-US/docs/CSS/text-align\" target="
+"\"_blank\">CSS text-align</a>"
+msgstr ""
+
+#: section.php:167 section.php:337 section.php:399 section.php:461
+#: section.php:523 section.php:585 section.php:647 section.php:709
+#: section.php:771 section.php:833 section.php:895
+msgid "Left"
+msgstr ""
+
+#: section.php:168 section.php:338 section.php:400 section.php:462
+#: section.php:524 section.php:586 section.php:648 section.php:710
+#: section.php:772 section.php:834 section.php:896
+msgid "Right"
+msgstr ""
+
+#: section.php:169 section.php:339 section.php:401 section.php:463
+#: section.php:525 section.php:587 section.php:649 section.php:711
+#: section.php:773 section.php:835 section.php:897
+msgid "Justify"
+msgstr ""
+
+#: section.php:174
+msgid ""
+"Text-Decoration.<br/>&nbsp;&nbsp;&nbsp;Default = <em>None</em><br/><a href="
+"\"https://developer.mozilla.org/en-US/docs/CSS/text-decoration\" target="
+"\"_blank\">CSS text-decoration</a>"
+msgstr ""
+
+#: section.php:176 section.php:347 section.php:409 section.php:471
+#: section.php:533 section.php:595 section.php:657 section.php:719
+#: section.php:781 section.php:843 section.php:905
+msgid "Underline"
+msgstr ""
+
+#: section.php:177 section.php:348 section.php:410 section.php:472
+#: section.php:534 section.php:596 section.php:658 section.php:720
+#: section.php:782 section.php:844 section.php:906
+msgid "Line-Through / Strikethrough"
+msgstr ""
+
+#: section.php:178 section.php:349 section.php:411 section.php:473
+#: section.php:535 section.php:597 section.php:659 section.php:721
+#: section.php:783 section.php:845 section.php:907
+msgid "Overline"
+msgstr ""
+
+#: section.php:183
+msgid ""
+"BigText Line-Height (e.g. 0.9).<br/>&nbsp;&nbsp;&nbsp;Default = <em>1</"
+"em><br/><a href=\"https://developer.mozilla.org/en-US/docs/CSS/line-height\" "
+"target=\"_blank\">CSS line-height</a>"
+msgstr ""
+
+#: section.php:187
+msgid "Display in small-caps?"
+msgstr ""
+
+#: section.php:191
+msgid ""
+"Change text color to transparent. Warnings:<br/>&nbsp;&nbsp;&nbsp;&nbsp;"
+"&nbsp;&nbsp;&nbsp;&nbsp;Only works on Webkit browsers. Ignored on other "
+"browsers.<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Try setting "
+"text color to white or black as a backup for non-Webkit.<br/>&nbsp;&nbsp;"
+"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Does not work as expected with Stroke/"
+"Outline or Shadow Colors.<br/><br/>"
+msgstr ""
+
+#: section.php:195
+msgid "Default Text Color"
+msgstr ""
+
+#: section.php:199
+msgid "Stroke Color<br/>(a 1px Outline)"
+msgstr ""
+
+#: section.php:203
+msgid "Default<br/>Shadow Color"
+msgstr ""
+
+#: section.php:207
+msgid "Shadow Length (default: <em>2px</em> if Shadow Color is set)"
+msgstr ""
+
+#: section.php:214
+msgid "Enter your BigText here."
+msgstr ""
+
+#: section.php:215
+msgid ""
+"Everything you enter per line will resize to fill the entire width. Blank "
+"lines will be skipped.<br/>You may enter HTML code and/or use shortcodes.<br/"
+">Consider entering one or more <em>nbsp;</em> on each side of a line of text "
+"to pseudo-indent it."
+msgstr ""
+
+#: section.php:219
+msgid "Line 0 Text <em>(Required)</em>"
+msgstr ""
+
+#: section.php:223
+msgid "Line 1 Text"
+msgstr ""
+
+#: section.php:227
+msgid "Line 2 Text"
+msgstr ""
+
+#: section.php:231
+msgid "Line 3 Text"
+msgstr ""
+
+#: section.php:235
+msgid "Line 4 Text"
+msgstr ""
+
+#: section.php:239
+msgid "Line 5 Text"
+msgstr ""
+
+#: section.php:243
+msgid "Line 6 Text"
+msgstr ""
+
+#: section.php:247
+msgid "Line 7 Text"
+msgstr ""
+
+#: section.php:251
+msgid "Line 8 Text"
+msgstr ""
+
+#: section.php:255
+msgid "Line 9 Text"
+msgstr ""
+
+#: section.php:262
+msgid "You may exempt specific lines from the BigText re-sizing effect."
+msgstr ""
+
+#: section.php:263
+msgid "Exempt lines will be displayed at the sitewide font size."
+msgstr ""
+
+#: section.php:267
+msgid "Exempt Line 0"
+msgstr ""
+
+#: section.php:271
+msgid "Exempt Line 1"
+msgstr ""
+
+#: section.php:275
+msgid "Exempt Line 2"
+msgstr ""
+
+#: section.php:279
+msgid "Exempt Line 3"
+msgstr ""
+
+#: section.php:283
+msgid "Exempt Line 4"
+msgstr ""
+
+#: section.php:287
+msgid "Exempt Line 5"
+msgstr ""
+
+#: section.php:291
+msgid "Exempt Line 6"
+msgstr ""
+
+#: section.php:295
+msgid "Exempt Line 7"
+msgstr ""
+
+#: section.php:299
+msgid "Exempt Line 8"
+msgstr ""
+
+#: section.php:303
+msgid "Exempt Line 9"
+msgstr ""
+
+#: section.php:325
+msgid "BigText Line 0"
+msgstr ""
+
+#: section.php:326 section.php:388 section.php:450 section.php:512
+#: section.php:574 section.php:636 section.php:698 section.php:760
+#: section.php:822 section.php:884
+msgid "These line-by-line settings are optional."
+msgstr ""
+
+#: section.php:330
+msgid "Line 0 Font"
+msgstr ""
+
+#: section.php:334
+msgid "Line 0 Text-Align"
+msgstr ""
+
+#: section.php:336 section.php:398 section.php:460 section.php:522
+#: section.php:584 section.php:646 section.php:708 section.php:770
+#: section.php:832 section.php:894
+msgid "Center"
+msgstr ""
+
+#: section.php:344
+msgid "Line 0 Text-Decoration"
+msgstr ""
+
+#: section.php:346 section.php:408 section.php:470 section.php:532
+#: section.php:594 section.php:656 section.php:718 section.php:780
+#: section.php:842 section.php:904
+msgid "None"
+msgstr ""
+
+#: section.php:354
+msgid "Line 0 Line-Height"
+msgstr ""
+
+#: section.php:358
+msgid "Line 0 in Small-Caps<br/><br/>"
+msgstr ""
+
+#: section.php:368
+msgid "Line 0 Text Color"
+msgstr ""
+
+#: section.php:372
+msgid "Line 0 Stroke<br/>(a 1px Outline)"
+msgstr ""
+
+#: section.php:376
+msgid "Line 0<br/>Shadow Color"
+msgstr ""
+
+#: section.php:380
+msgid "Line 0 Shadow Length (default: <em>2px</em> if Shadow Color is set)"
+msgstr ""
+
+#: section.php:387
+msgid "BigText Line 1"
+msgstr ""
+
+#: section.php:392
+msgid "Line 1 Font"
+msgstr ""
+
+#: section.php:396
+msgid "Line 1 Text-Align"
+msgstr ""
+
+#: section.php:406
+msgid "Line 1 Text-Decoration"
+msgstr ""
+
+#: section.php:416
+msgid "Line 1 Line-Height"
+msgstr ""
+
+#: section.php:420
+msgid "Line 1 in Small-Caps<br/><br/>"
+msgstr ""
+
+#: section.php:430
+msgid "Line 1 Text Color"
+msgstr ""
+
+#: section.php:434
+msgid "Line 1 Stroke<br/>(a 1px Outline)"
+msgstr ""
+
+#: section.php:438
+msgid "Line 1<br/>Shadow Color"
+msgstr ""
+
+#: section.php:442
+msgid "Line 1 Shadow Length (default: <em>2px</em> if Shadow Color is set)"
+msgstr ""
+
+#: section.php:449
+msgid "BigText Line 2"
+msgstr ""
+
+#: section.php:454
+msgid "Line 2 Font"
+msgstr ""
+
+#: section.php:458
+msgid "Line 2 Text-Align"
+msgstr ""
+
+#: section.php:468
+msgid "Line 2 Text-Decoration"
+msgstr ""
+
+#: section.php:478
+msgid "Line 2 Line-Height"
+msgstr ""
+
+#: section.php:482
+msgid "Line 2 in Small-Caps<br/><br/>"
+msgstr ""
+
+#: section.php:492
+msgid "Line 2 Text Color"
+msgstr ""
+
+#: section.php:496
+msgid "Line 2 Stroke<br/>(a 1px Outline)"
+msgstr ""
+
+#: section.php:500
+msgid "Line 2<br/>Shadow Color"
+msgstr ""
+
+#: section.php:504
+msgid "Line 2 Shadow Length (default: <em>2px</em> if Shadow Color is set)"
+msgstr ""
+
+#: section.php:511
+msgid "BigText Line 3"
+msgstr ""
+
+#: section.php:516
+msgid "Line 3 Font"
+msgstr ""
+
+#: section.php:520
+msgid "Line 3 Text-Align"
+msgstr ""
+
+#: section.php:530
+msgid "Line 3 Text-Decoration"
+msgstr ""
+
+#: section.php:540
+msgid "Line 3 Line-Height"
+msgstr ""
+
+#: section.php:544
+msgid "Line 3 in Small-Caps<br/><br/>"
+msgstr ""
+
+#: section.php:554
+msgid "Line 3 Text Color"
+msgstr ""
+
+#: section.php:558
+msgid "Line 3 Stroke<br/>(a 1px Outline)"
+msgstr ""
+
+#: section.php:562
+msgid "Line 3<br/>Shadow Color"
+msgstr ""
+
+#: section.php:566
+msgid "Line 3 Shadow Length (default: <em>2px</em> if Shadow Color is set)"
+msgstr ""
+
+#: section.php:573
+msgid "BigText Line 4"
+msgstr ""
+
+#: section.php:578
+msgid "Line 4 Font"
+msgstr ""
+
+#: section.php:582
+msgid "Line 4 Text-Align"
+msgstr ""
+
+#: section.php:592
+msgid "Line 4 Text-Decoration"
+msgstr ""
+
+#: section.php:602
+msgid "Line 4 Line-Height"
+msgstr ""
+
+#: section.php:606
+msgid "Line 4 in Small-Caps<br/><br/>"
+msgstr ""
+
+#: section.php:616
+msgid "Line 4 Text Color"
+msgstr ""
+
+#: section.php:620
+msgid "Line 4 Stroke<br/>(a 1px Outline)"
+msgstr ""
+
+#: section.php:624
+msgid "Line 4<br/>Shadow Color"
+msgstr ""
+
+#: section.php:628
+msgid "Line 4 Shadow Length (default: <em>2px</em> if Shadow Color is set)"
+msgstr ""
+
+#: section.php:635
+msgid "BigText Line 5"
+msgstr ""
+
+#: section.php:640
+msgid "Line 5 Font"
+msgstr ""
+
+#: section.php:644
+msgid "Line 5 Text-Align"
+msgstr ""
+
+#: section.php:654
+msgid "Line 5 Text-Decoration"
+msgstr ""
+
+#: section.php:664
+msgid "Line 5 Line-Height"
+msgstr ""
+
+#: section.php:668
+msgid "Line 5 in Small-Caps<br/><br/>"
+msgstr ""
+
+#: section.php:678
+msgid "Line 5 Text Color"
+msgstr ""
+
+#: section.php:682
+msgid "Line 5 Stroke<br/>(a 1px Outline)"
+msgstr ""
+
+#: section.php:686
+msgid "Line 5<br/>Shadow Color"
+msgstr ""
+
+#: section.php:690
+msgid "Line 5 Shadow Length (default: <em>2px</em> if Shadow Color is set)"
+msgstr ""
+
+#: section.php:697
+msgid "BigText Line 6"
+msgstr ""
+
+#: section.php:702
+msgid "Line 6 Font"
+msgstr ""
+
+#: section.php:706
+msgid "Line 6 Text-Align"
+msgstr ""
+
+#: section.php:716
+msgid "Line 6 Text-Decoration"
+msgstr ""
+
+#: section.php:726
+msgid "Line 6 Line-Height"
+msgstr ""
+
+#: section.php:730
+msgid "Line 6 in Small-Caps<br/><br/>"
+msgstr ""
+
+#: section.php:740
+msgid "Line 6 Text Color"
+msgstr ""
+
+#: section.php:744
+msgid "Line 6 Stroke<br/>(a 1px Outline)"
+msgstr ""
+
+#: section.php:748
+msgid "Line 6<br/>Shadow Color"
+msgstr ""
+
+#: section.php:752
+msgid "Line 6 Shadow Length (default: <em>2px</em> if Shadow Color is set)"
+msgstr ""
+
+#: section.php:759
+msgid "BigText Line 7"
+msgstr ""
+
+#: section.php:764
+msgid "Line 7 Font"
+msgstr ""
+
+#: section.php:768
+msgid "Line 7 Text-Align"
+msgstr ""
+
+#: section.php:778
+msgid "Line 7 Text-Decoration"
+msgstr ""
+
+#: section.php:788
+msgid "Line 7 Line-Height"
+msgstr ""
+
+#: section.php:792
+msgid "Line 7 in Small-Caps<br/><br/>"
+msgstr ""
+
+#: section.php:802
+msgid "Line 7 Text Color"
+msgstr ""
+
+#: section.php:806
+msgid "Line 7 Stroke<br/>(a 1px Outline)"
+msgstr ""
+
+#: section.php:810
+msgid "Line 7<br/>Shadow Color"
+msgstr ""
+
+#: section.php:814
+msgid "Line 7 Shadow Length (default: <em>2px</em> if Shadow Color is set)"
+msgstr ""
+
+#: section.php:821
+msgid "BigText Line 8"
+msgstr ""
+
+#: section.php:826
+msgid "Line 8 Font"
+msgstr ""
+
+#: section.php:830
+msgid "Line 8 Text-Align"
+msgstr ""
+
+#: section.php:840
+msgid "Line 8 Text-Decoration"
+msgstr ""
+
+#: section.php:850
+msgid "Line 8 Line-Height"
+msgstr ""
+
+#: section.php:854
+msgid "Line 8 in Small-Caps<br/><br/>"
+msgstr ""
+
+#: section.php:864
+msgid "Line 8 Text Color"
+msgstr ""
+
+#: section.php:868
+msgid "Line 8 Stroke<br/>(a 1px Outline)"
+msgstr ""
+
+#: section.php:872
+msgid "Line 8<br/>Shadow Color"
+msgstr ""
+
+#: section.php:876
+msgid "Line 8 Shadow Length (default: <em>2px</em> if Shadow Color is set)"
+msgstr ""
+
+#: section.php:883
+msgid "BigText Line 9"
+msgstr ""
+
+#: section.php:888
+msgid "Line 9 Font"
+msgstr ""
+
+#: section.php:892
+msgid "Line 9 Text-Align"
+msgstr ""
+
+#: section.php:902
+msgid "Line 9 Text-Decoration"
+msgstr ""
+
+#: section.php:912
+msgid "Line 9 Line-Height"
+msgstr ""
+
+#: section.php:916
+msgid "Line 9 in Small-Caps<br/><br/>"
+msgstr ""
+
+#: section.php:926
+msgid "Line 9 Text Color"
+msgstr ""
+
+#: section.php:930
+msgid "Line 9 Stroke<br/>(a 1px Outline)"
+msgstr ""
+
+#: section.php:934
+msgid "Line 9<br/>Shadow Color"
+msgstr ""
+
+#: section.php:938
+msgid "Line 9 Shadow Length (default: <em>2px</em> if Shadow Color is set)"
+msgstr ""
+
+#: section.php:962
+msgid ""
+"Get started with BigText by entering a value for \"BigText Line 0 Text\"."
+msgstr ""

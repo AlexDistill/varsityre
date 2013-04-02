@@ -1,0 +1,26 @@
+== Description ==
+
+Wish FitText could put more than one word on a line? Come enjoy the benefits of the robust BigText Section with extensive line-by-line options!
+
+<h3>Highlights</h3>
+<p style="padding-left:30px;">&raquo; Up to 10 lines of text that all scale up or down to fit the page/container width
+<br />&raquo; Line-by-line color, font, shadow, line-height, text-align, and more
+<br />&raquo; Turn off the BigText effect (called "exempt") with a simple checkbox, line-by-line
+<br />&raquo; Add custom section wrapper class, text area class, background color, or background image (optional transparent text and control background positioning)
+<br />&raquo; Set max width of the text area, set maximum (default 528px) and minimum (no default minimum) font sizes, and it's responsive
+<br />&raquo; Use HTML on each line (spans, nbsp, br, etc)
+<br />&raquo; Shortcodes work too
+<br />&raquo; And more!</p>
+See <a href="http://www.pagelinestheme.com/bigtext-section?utm_source=pagelines&utm_medium=section&utm_content=plstoredescription&utm_campaign=bigtext_section" target="_blank">Section's Official Page</a> for more details.
+
+== Changelog ==
+= 1.1.20130401 =
+* Added more options.
+* Added more line-by-line options.
+* Added small-caps option.
+* Removed option for all caps, small caps, capitalize (just enter the text as desired).
+* Removed margin option.
+* Improved organization of options.
+* Options text now translatable.
+= 1.0.20130328 =
+* Initial release
