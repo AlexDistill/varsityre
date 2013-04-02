@@ -1,0 +1,49 @@
+== Description ==
+
+<h3>Time-saved in a box.</h3>
+
+<p>For developers &amp; anyone else who doesn't want to lose years of their life activating &amp; deactivating sections individually - this plugin is for you! &lt;3</p>
+
+<h3>New With v1.1 - Optimize Your Site In a Flash!</h3>
+<p>With version 1.1, you can SEE not only which sections are currently activated or deactivated, but which sections are active <em>but not currently being used! (inactive)</em>.</p>
+<p>With the new <strong>Toggle Inactive</strong> button, you can check/uncheck all of these at once.</p>
+
+<h3>Toggles For Every Occassion</h3>
+<p>Check them all on, all off, or toggle only activated, inactive or deactivated sections - Section Switchboard helps you make the change in as few clicks as possible.</p>
+
+<h3>How To Use</h3>
+<ol>
+	<li>Install through the Store</li>
+	<li>Navigate to the new <em>Section Switchboard</em> menu page under the main PageLines menu</li>
+	<li>Check/Uncheck individually &amp;/or use the various select toggle buttons at the top of each section type</li>
+	<li>Click <em>Apply Changes</em></li>
+	<li><strong>DONE.</strong> (You will even see a message about how many sections were activated &amp; deactivated!)</li>
+</ol>
+
+<p>Your brain cells will thank you.</p>
+
+
+== Changelog ==
+
+= 1.2.3 =
+* PHP fix for some hosts
+
+= 1.2.2 =
+* LESS Developer integration
+
+= 1.2.1 =
+* Compatibility fix for older versions of PHP
+
+= 1.2 =
+* Sections are now grouped by status and sorted alphabetically
+* Sections are separated by activated/deactivated
+* Active and inactive sections are labeled respectively
+* Inactive color is less intense
+
+= 1.1 =
+* Section Status Integration (activated/Inactive/deactivated)
+* Awesome Color Coding!
+* More Select Toggle Buttons!
+
+= 1.0 =
+* Initial release

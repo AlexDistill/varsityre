@@ -1,0 +1,67 @@
+.section-switchboard-panel .oinputs {
+  width: 100%;
+}
+.section-switchboard-panel button.select-toggle {
+  float: left;
+  width: 19%;
+  margin-right: 1px;
+}
+.section-switchboard-panel button.select-toggle.last {
+  margin-right: 0;
+}
+.section-switchboard-panel .optiontitle .shortexp {
+  margin-bottom: 0;
+}
+.section-switchboard-panel .section_switch_multi {
+  min-height: 200px;
+}
+.section-switchboard-panel .section_switch_multi .status-heading {
+  margin-bottom: 0;
+}
+.section-switchboard-panel .section_switch_multi .section-group {
+  margin-bottom: 3em;
+}
+.section-switchboard-panel .section_switch_multi label {
+  width: 44%;
+  float: left;
+}
+.section-switchboard-panel .section_switch_multi label.lbl.inln {
+  margin: 14px 3% 3px 0;
+  padding: 1%;
+  border: 1px solid transparent;
+  background-color: #dff0d8;
+  border: 1px solid #cae6be;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.section-switchboard-panel .section_switch_multi label.lbl.inln:hover {
+  background-color: #e2f2dc;
+  border: 1px solid #a3d48e;
+}
+.section-switchboard-panel .section_switch_multi label.lbl.inln.deactivated {
+  background-color: #F0F0F0;
+  border: 1px solid #dedede;
+  color: gray;
+  font-style: italic;
+  font-weight: normal;
+}
+.section-switchboard-panel .section_switch_multi label.lbl.inln.deactivated:hover {
+  background-color: #f2f2f2;
+  border: 1px solid #bdbdbd;
+}
+.section-switchboard-panel .section_switch_multi label.lbl.inln.inactive {
+  background-color: #e4eee0;
+  border: 1px solid #d0e1c8;
+  font-style: italic;
+  color: #696969;
+}
+.section-switchboard-panel .section_switch_multi label.lbl.inln.inactive:hover {
+  background-color: #e6f0e3;
+  border: 1px solid #aaca9e;
+}
+.section-switchboard-panel .section_switch_multi label .status {
+  float: right;
+  font-weight: normal;
+  color: gray;
+}

@@ -1,0 +1,65 @@
+.section-switchboard-panel {
+
+	.oinputs {
+		width: 100%;
+	}
+	button.select-toggle {
+		float: left;
+		width: 19%;
+		margin-right: 1px;
+		&.last { margin-right: 0; }
+	}
+	.optiontitle .shortexp {
+		margin-bottom: 0;
+	}
+
+	.section_switch_multi {
+		min-height: 200px;
+		
+		.status-heading {
+			margin-bottom: 0;
+		}
+		.section-group {
+			margin-bottom: 3em;
+		}
+
+		label {
+			width: 44%;
+			float: left;
+			&.lbl.inln {
+				margin: 14px 3% 3px 0;
+				padding: 1%;
+				border: 1px solid transparent;
+				.section-switchboard-label ( @successBackground );
+				.border-radius (4px);
+				
+				&.deactivated {
+					.section-switchboard-label ( #F0F0F0 );
+					color: gray;
+					font-style: italic;
+					font-weight: normal;
+				}
+				&.inactive {
+					.section-switchboard-label ( mix( white, desaturate( @successBackground, 15), 10) );
+					
+					font-style: italic;
+					color: #696969;
+				}
+			}
+			.status {
+				float: right;
+				font-weight: normal;
+				color: gray;
+			}
+		}
+	}
+}
+
+.section-switchboard-label ( @color ) {
+	background-color: @color;
+	border: 1px solid darken(@color, 7);
+	&:hover {
+		background-color: mix(@color, white, 90);
+		border: 1px solid darken(@color, 20);
+	}
+}
