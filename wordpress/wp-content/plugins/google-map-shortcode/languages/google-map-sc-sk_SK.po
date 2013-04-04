@@ -1,0 +1,599 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: google_map_sc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-08-23 13:39-0500\n"
+"PO-Revision-Date: 2013-01-23 07:52+0300\n"
+"Last-Translator: Serg\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: C:\\server\\www\\myserver.dev\\public_html\\wp31\\wp-"
+"content\\plugins\\\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: google-map-shortcode\n"
+
+#: google-map-shortcode/google-map-shortcode.php:227
+msgid "There is not points to locate on the map"
+msgstr "Nie je bodov vyhľadať na mape"
+
+#: google-map-shortcode/google-map-shortcode.php:245
+#: google-map-shortcode/google-map-shortcode.php:900
+msgid "Google Map Shortcode"
+msgstr "Google Map krátky"
+
+#: google-map-shortcode/google-map-shortcode.php:301
+msgid "The Address can't be located."
+msgstr "Adresa nemôže byť umiestnený."
+
+#: google-map-shortcode/google-map-shortcode.php:307
+msgid "The Point was updated."
+msgstr "Bod bol aktualizovaný."
+
+#: google-map-shortcode/google-map-shortcode.php:308
+msgid "The Points can't be updated."
+msgstr "Body nie je možné aktualizovať."
+
+#: google-map-shortcode/google-map-shortcode.php:313
+msgid "The Point was deleted."
+msgstr "Bod bol zmazaný."
+
+#: google-map-shortcode/google-map-shortcode.php:339
+msgid "Add New Point"
+msgstr "Pridať nový bod"
+
+#: google-map-shortcode/google-map-shortcode.php:344
+msgid "Title"
+msgstr "Názov"
+
+#: google-map-shortcode/google-map-shortcode.php:352
+msgid "Description"
+msgstr "Popis"
+
+#: google-map-shortcode/google-map-shortcode.php:360
+msgid "Full Address"
+msgstr "Úplná adresa"
+
+#: google-map-shortcode/google-map-shortcode.php:378
+msgid "Select the thumbnail by clicking on the images"
+msgstr "Kliknutím na obrázky, vyberte miniatúry"
+
+#: google-map-shortcode/google-map-shortcode.php:390
+msgid "Thumbnail: "
+msgstr "Náhľad: "
+
+#: google-map-shortcode/google-map-shortcode.php:390
+msgid ""
+"If you want to attach an image to the point you need to upload it first to "
+"the post gallery"
+msgstr ""
+"Ak chcete priložiť obrázok do bodu musíte nahrať ju najprv na Doručovací "
+"Galéria"
+
+#: google-map-shortcode/google-map-shortcode.php:393
+msgid "Upload Images"
+msgstr "Upload obrázkov"
+
+#: google-map-shortcode/google-map-shortcode.php:393
+#: google-map-shortcode/google-map-shortcode.php:471
+msgid "Add Point"
+msgstr "Pridať bod"
+
+#: google-map-shortcode/google-map-shortcode.php:399
+msgid "Map Configuration"
+msgstr "Mapu konfigurácia"
+
+#: google-map-shortcode/google-map-shortcode.php:403
+#: google-map-shortcode/google-map-shortcode.php:669
+msgid "Width"
+msgstr "Šírka"
+
+#: google-map-shortcode/google-map-shortcode.php:407
+#: google-map-shortcode/google-map-shortcode.php:673
+msgid "Height"
+msgstr "Výška"
+
+#: google-map-shortcode/google-map-shortcode.php:411
+#: google-map-shortcode/google-map-shortcode.php:677
+msgid "Margin"
+msgstr "Rozpätie"
+
+#: google-map-shortcode/google-map-shortcode.php:415
+#: google-map-shortcode/google-map-shortcode.php:681
+msgid "Align"
+msgstr "Zarovnať"
+
+#: google-map-shortcode/google-map-shortcode.php:417
+#: google-map-shortcode/google-map-shortcode.php:683
+msgid "left"
+msgstr "doľava"
+
+#: google-map-shortcode/google-map-shortcode.php:418
+#: google-map-shortcode/google-map-shortcode.php:684
+msgid "center"
+msgstr "centrum"
+
+#: google-map-shortcode/google-map-shortcode.php:419
+#: google-map-shortcode/google-map-shortcode.php:685
+msgid "right"
+msgstr "právo"
+
+#: google-map-shortcode/google-map-shortcode.php:422
+#: google-map-shortcode/google-map-shortcode.php:688
+msgid "Zoom"
+msgstr "Zoom"
+
+#: google-map-shortcode/google-map-shortcode.php:431
+msgid "Maps Type"
+msgstr "Typ mapy"
+
+#: google-map-shortcode/google-map-shortcode.php:434
+#: google-map-shortcode/google-map-shortcode.php:700
+msgid "ROADMAP - Displays a normal street map"
+msgstr "Cestovná mapa - zobrazuje mape normálne ulici"
+
+#: google-map-shortcode/google-map-shortcode.php:435
+#: google-map-shortcode/google-map-shortcode.php:701
+msgid "SATELLITE - Displays satellite images"
+msgstr "SATELIT - zobrazuje satelitné obrázky"
+
+#: google-map-shortcode/google-map-shortcode.php:436
+#: google-map-shortcode/google-map-shortcode.php:702
+msgid ""
+"TERRAIN - Displays maps with physical features such as terrain and vegetation"
+msgstr "TERÉN - zobrazuje mapy s fyzické vlastnosti terénu a vegetácie"
+
+#: google-map-shortcode/google-map-shortcode.php:437
+#: google-map-shortcode/google-map-shortcode.php:703
+msgid ""
+"HYBRID - Displays a transparent layer of major streets on satellite images"
+msgstr "HYBRID - zobrazí priehľadnú vrstvu z hlavných ulíc na satelitné snímky"
+
+#: google-map-shortcode/google-map-shortcode.php:442
+msgid "Focus"
+msgstr "Zameranie"
+
+#: google-map-shortcode/google-map-shortcode.php:445
+msgid "None"
+msgstr "Žiadny"
+
+#: google-map-shortcode/google-map-shortcode.php:447
+msgid "All"
+msgstr "Všetky"
+
+#: google-map-shortcode/google-map-shortcode.php:454
+msgid "Select the point to be focused after loading the map"
+msgstr "Vyberte bod zameraná po načítaní mapy"
+
+#: google-map-shortcode/google-map-shortcode.php:458
+#: google-map-shortcode/google-map-shortcode.php:783
+msgid "Focus Type"
+msgstr "Zameranie typu"
+
+#: google-map-shortcode/google-map-shortcode.php:461
+#: google-map-shortcode/google-map-shortcode.php:786
+msgid "Open Markers"
+msgstr "So značkami pri otvorení"
+
+#: google-map-shortcode/google-map-shortcode.php:462
+#: google-map-shortcode/google-map-shortcode.php:787
+msgid "Center Markers"
+msgstr "Centrum markery"
+
+#: google-map-shortcode/google-map-shortcode.php:472
+#: google-map-shortcode/google-map-shortcode.php:531
+msgid "Insert Map"
+msgstr "Vložte mapu"
+
+#: google-map-shortcode/google-map-shortcode.php:473
+msgid " Points Added"
+msgstr " Body pridané"
+
+#: google-map-shortcode/google-map-shortcode.php:485
+msgid "Marker"
+msgstr "Marker"
+
+#: google-map-shortcode/google-map-shortcode.php:486
+#: google-map-shortcode/google-map-shortcode.php:505
+msgid "Thumbnail"
+msgstr "Miniatúra"
+
+#: google-map-shortcode/google-map-shortcode.php:487
+msgid "Title/Description"
+msgstr "Názov/popis"
+
+#: google-map-shortcode/google-map-shortcode.php:488
+msgid "Address/LtLg"
+msgstr "Adresa/LtLg"
+
+#: google-map-shortcode/google-map-shortcode.php:499
+msgid "Icon"
+msgstr "Ikona"
+
+#: google-map-shortcode/google-map-shortcode.php:519
+msgid "Update"
+msgstr "Aktualizácia"
+
+#: google-map-shortcode/google-map-shortcode.php:520
+msgid "You will not be able to roll back deletion. Are you sure?"
+msgstr "Nebudete môcť vrátiť späť vymazanie. si si istý?"
+
+#: google-map-shortcode/google-map-shortcode.php:520
+msgid "Delete"
+msgstr "Odstrániť"
+
+#: google-map-shortcode/google-map-shortcode.php:531
+msgid "Show Map"
+msgstr "Zobraziť mapu"
+
+#: google-map-shortcode/google-map-shortcode.php:531
+msgid "Hide Map"
+msgstr "Skryť mapu"
+
+#: google-map-shortcode/google-map-shortcode.php:577
+msgid "Google Map Shortcode Settings"
+msgstr "Krátky nastavenia Google mapy"
+
+#: google-map-shortcode/google-map-shortcode.php:629
+#, php-format
+msgid "Could not write file %1$s (%2$s)"
+msgstr "Dalo by sa napísať súbor %1$ s (%2$ s)"
+
+#: google-map-shortcode/google-map-shortcode.php:638
+msgid "Please upload a valid file"
+msgstr "Prosím upload platný súbor"
+
+#: google-map-shortcode/google-map-shortcode.php:663
+msgid "Maps Default Configuration"
+msgstr "Mapy predvolenú konfiguráciu"
+
+#: google-map-shortcode/google-map-shortcode.php:665
+msgid "The shortcode attributes overwrites these options."
+msgstr "Krátky atribúty prepíšu tieto možnosti."
+
+#: google-map-shortcode/google-map-shortcode.php:697
+msgid "Maps Default Type"
+msgstr "Predvolený typ mapy"
+
+#: google-map-shortcode/google-map-shortcode.php:708
+msgid "Select Language"
+msgstr "Vyberte jazyk"
+
+#: google-map-shortcode/google-map-shortcode.php:712
+msgid "ARABIC"
+msgstr "arabčina"
+
+#: google-map-shortcode/google-map-shortcode.php:713
+#: google-map-shortcode/google-map-shortcode.php:725
+msgid "BASQUE"
+msgstr "baskičtina"
+
+#: google-map-shortcode/google-map-shortcode.php:714
+msgid "BULGARIAN"
+msgstr "bulharčina"
+
+#: google-map-shortcode/google-map-shortcode.php:715
+msgid "BENGALI"
+msgstr "bengálčina"
+
+#: google-map-shortcode/google-map-shortcode.php:716
+msgid "CATALAN"
+msgstr "katalánčina"
+
+#: google-map-shortcode/google-map-shortcode.php:717
+msgid "CZECH"
+msgstr "čeština"
+
+#: google-map-shortcode/google-map-shortcode.php:718
+msgid "DANISH"
+msgstr "dánčina"
+
+#: google-map-shortcode/google-map-shortcode.php:719
+msgid "GERMAN"
+msgstr "nemčina"
+
+#: google-map-shortcode/google-map-shortcode.php:720
+msgid "GREEK"
+msgstr "gréčtina"
+
+#: google-map-shortcode/google-map-shortcode.php:721
+msgid "ENGLISH"
+msgstr "angličtina"
+
+#: google-map-shortcode/google-map-shortcode.php:722
+msgid "ENGLISH (AUSTRALIAN)"
+msgstr "ANGLIČTINA (AUSTRÁLIA)"
+
+#: google-map-shortcode/google-map-shortcode.php:723
+msgid "ENGLISH (GREAT BRITAIN)"
+msgstr "ANGLIČTINA (VEĽKÁ BRITÁNIA)"
+
+#: google-map-shortcode/google-map-shortcode.php:724
+msgid "SPANISH"
+msgstr "španielčina"
+
+#: google-map-shortcode/google-map-shortcode.php:726
+msgid "FARSI"
+msgstr "PERZŠTINA"
+
+#: google-map-shortcode/google-map-shortcode.php:727
+msgid "FINNISH"
+msgstr "fínčina"
+
+#: google-map-shortcode/google-map-shortcode.php:728
+msgid "FILIPINO"
+msgstr "filipínčina"
+
+#: google-map-shortcode/google-map-shortcode.php:729
+msgid "FRENCH"
+msgstr "francúzština"
+
+#: google-map-shortcode/google-map-shortcode.php:730
+msgid "GALICIAN"
+msgstr "galícijčina"
+
+#: google-map-shortcode/google-map-shortcode.php:731
+msgid "GUJARATI"
+msgstr "gudžarátčina"
+
+#: google-map-shortcode/google-map-shortcode.php:732
+msgid "HINDI"
+msgstr "hindčina"
+
+#: google-map-shortcode/google-map-shortcode.php:733
+msgid "CROATIAN"
+msgstr "chorvátčina"
+
+#: google-map-shortcode/google-map-shortcode.php:734
+msgid "HUNGARIAN"
+msgstr "maďarčina"
+
+#: google-map-shortcode/google-map-shortcode.php:735
+msgid "INDONESIAN"
+msgstr "indonézština"
+
+#: google-map-shortcode/google-map-shortcode.php:736
+msgid "ITALIAN"
+msgstr "taliančina"
+
+#: google-map-shortcode/google-map-shortcode.php:737
+msgid "HEBREW"
+msgstr "hebrejčina"
+
+#: google-map-shortcode/google-map-shortcode.php:738
+msgid "JAPANESE"
+msgstr "japončina"
+
+#: google-map-shortcode/google-map-shortcode.php:739
+msgid "KANNADA"
+msgstr "kannadčina"
+
+#: google-map-shortcode/google-map-shortcode.php:740
+msgid "KOREAN"
+msgstr "kórejčina"
+
+#: google-map-shortcode/google-map-shortcode.php:741
+msgid "LITHUANIAN"
+msgstr "litovčina"
+
+#: google-map-shortcode/google-map-shortcode.php:742
+msgid "LATVIAN"
+msgstr "lotyština"
+
+#: google-map-shortcode/google-map-shortcode.php:743
+msgid "MALAYALAM"
+msgstr "malajámčina"
+
+#: google-map-shortcode/google-map-shortcode.php:744
+msgid "MARATHI"
+msgstr "maráthčina"
+
+#: google-map-shortcode/google-map-shortcode.php:745
+msgid "DUTCH"
+msgstr "holandčina"
+
+#: google-map-shortcode/google-map-shortcode.php:746
+msgid "NORWEGIAN"
+msgstr "nórčina"
+
+#: google-map-shortcode/google-map-shortcode.php:747
+msgid "ORIYA"
+msgstr "URIJŠTINA"
+
+#: google-map-shortcode/google-map-shortcode.php:748
+msgid "POLISH"
+msgstr "poľština"
+
+#: google-map-shortcode/google-map-shortcode.php:749
+msgid "PORTUGUESE"
+msgstr "portugalčina"
+
+#: google-map-shortcode/google-map-shortcode.php:750
+msgid "PORTUGUESE (BRAZIL)"
+msgstr "PORTUGALČINA (BRAZÍLIA)"
+
+#: google-map-shortcode/google-map-shortcode.php:751
+msgid "PORTUGUESE (PORTUGAL)"
+msgstr "PORTUGALČINA (PORTUGALSKO)"
+
+#: google-map-shortcode/google-map-shortcode.php:752
+msgid "ROMANIAN"
+msgstr "rumunčina"
+
+#: google-map-shortcode/google-map-shortcode.php:753
+msgid "RUSSIAN"
+msgstr "ruština"
+
+#: google-map-shortcode/google-map-shortcode.php:754
+msgid "SLOVAK"
+msgstr "slovenčina"
+
+#: google-map-shortcode/google-map-shortcode.php:755
+msgid "SLOVENIAN"
+msgstr "slovinčina"
+
+#: google-map-shortcode/google-map-shortcode.php:756
+msgid "SERBIAN"
+msgstr "SRBSKÝ"
+
+#: google-map-shortcode/google-map-shortcode.php:757
+msgid "SWEDISH"
+msgstr "švédčina"
+
+#: google-map-shortcode/google-map-shortcode.php:758
+msgid "TAGALOG"
+msgstr "TAGALOG"
+
+#: google-map-shortcode/google-map-shortcode.php:759
+msgid "TAMIL"
+msgstr "tamilčina"
+
+#: google-map-shortcode/google-map-shortcode.php:760
+msgid "TELUGU"
+msgstr "telugčina"
+
+#: google-map-shortcode/google-map-shortcode.php:761
+msgid "THAI"
+msgstr "thajčina"
+
+#: google-map-shortcode/google-map-shortcode.php:762
+msgid "TURKISH"
+msgstr "turečtina"
+
+#: google-map-shortcode/google-map-shortcode.php:763
+msgid "UKRAINIAN"
+msgstr "ukrajinčina"
+
+#: google-map-shortcode/google-map-shortcode.php:764
+msgid "VIETNAMESE"
+msgstr "vietnamčina"
+
+#: google-map-shortcode/google-map-shortcode.php:765
+msgid "CHINESE (SIMPLIFIED)"
+msgstr "ČÍNSKE (ZJEDNODUŠENÉ)"
+
+#: google-map-shortcode/google-map-shortcode.php:766
+msgid "CHINESE (TRADITIONAL)"
+msgstr "ČÍNŠTINA (TRADIČNÁ)"
+
+#: google-map-shortcode/google-map-shortcode.php:778
+msgid "Circle"
+msgstr "Kruh"
+
+#: google-map-shortcode/google-map-shortcode.php:780
+msgid ""
+" Check if you want to focus all the map's points automatically with an "
+"interval of <br /><br />"
+msgstr ""
+"Skontrolujte, či chcete zamerať všetky mapy bodov automaticky s časovým "
+"odstupom<br><br>"
+
+#: google-map-shortcode/google-map-shortcode.php:780
+msgid "milliseconds."
+msgstr "milisekúnd."
+
+#: google-map-shortcode/google-map-shortcode.php:792
+msgid "Animation"
+msgstr "Animácie"
+
+#: google-map-shortcode/google-map-shortcode.php:793
+msgid " Check if you want to animate the markes."
+msgstr " Skontrolujte, či chcete animovať markes."
+
+#: google-map-shortcode/google-map-shortcode.php:801
+msgid "Markers"
+msgstr "Markery"
+
+#: google-map-shortcode/google-map-shortcode.php:813
+msgid "To include new icons just specify the file location:"
+msgstr "Zahrnúť nové ikony stačí zadať umiestnenie súboru:"
+
+#: google-map-shortcode/google-map-shortcode.php:823
+msgid "Info Windows"
+msgstr "Info Windows"
+
+#: google-map-shortcode/google-map-shortcode.php:825
+msgid "This is the html of the Info Window opened from the markers."
+msgstr "Toto je html informačného okna otvoriť z markery."
+
+#: google-map-shortcode/google-map-shortcode.php:829
+msgid "Previews"
+msgstr "Ukážky"
+
+#: google-map-shortcode/google-map-shortcode.php:835
+msgid "Custom Html"
+msgstr "Vlastné Html"
+
+#: google-map-shortcode/google-map-shortcode.php:847
+msgid "The following tags can be used."
+msgstr "Tieto značky možno použiť."
+
+#: google-map-shortcode/google-map-shortcode.php:851
+msgid "Custom title of the point"
+msgstr "Vlastný názov bodu"
+
+#: google-map-shortcode/google-map-shortcode.php:855
+msgid "Permanet Link of the post where the point is attached"
+msgstr "Permanentnými odkaz post, kde bod je pripojený"
+
+#: google-map-shortcode/google-map-shortcode.php:859
+msgid "Thubnail attached to the point"
+msgstr "Thubnail pripojené k bodu"
+
+#: google-map-shortcode/google-map-shortcode.php:863
+msgid "Description of the point"
+msgstr "Popis bodu"
+
+#: google-map-shortcode/google-map-shortcode.php:867
+msgid "Excerpt of the post where the point is attached"
+msgstr "Výpis post, kde bod je pripojený"
+
+#: google-map-shortcode/google-map-shortcode.php:871
+msgid "The address of this point"
+msgstr "Adresa tohto bodu"
+
+#: google-map-shortcode/google-map-shortcode.php:875
+msgid "Open this point on Google Map"
+msgstr "Otvoriť tento bod na mape Google"
+
+#: google-map-shortcode/google-map-shortcode.php:879
+msgid "Info Html width"
+msgstr "Info Html šírka"
+
+#: google-map-shortcode/google-map-shortcode.php:885
+msgid "Restore Default"
+msgstr "Obnoviť predvolené"
+
+#: google-map-shortcode/google-map-shortcode.php:909
+msgid "Plugin Page"
+msgstr "Plugin stránku"
+
+#: google-map-shortcode/google-map-shortcode.php:910
+msgid "How To Use"
+msgstr "Ako používať"
+
+#: google-map-shortcode/google-map-shortcode.php:911
+msgid "Shortcode Reference"
+msgstr "Krátky odkaz"
+
+#: google-map-shortcode/google-map-shortcode.php:912
+msgid "Examples"
+msgstr "Príklady"
+
+#: google-map-shortcode/google-map-shortcode.php:913
+msgid "Donate"
+msgstr "Darovať"
+
+#: google-map-shortcode/include/functions.php:240
+msgid "Select the marker by clicking on the images"
+msgstr "Zvoľte značku, kliknutím na obrázky"
+
+#: google-map-shortcode/include/functions.php:353
+msgid ""
+"The Point can't be added, <strong>php_curl.dll</strong> is not installed on "
+"your server and <strong>allow_url_fopen</strong> is disabled."
+msgstr ""
+"Nie je možné pridať bod, <strong>php_curl.dll</strong> nie je nainštalovaná "
+"na vašom serveri a <strong>allow_url_fopen</strong> je zakázaný."

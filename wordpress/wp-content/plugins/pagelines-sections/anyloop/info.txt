@@ -1,0 +1,50 @@
+== Description ==
+
+Rank post loops got you down? Supercharge your site with AnyLoop!
+
+AnyLoop is a post loop section that you have full control over. You can decide what how many posts show, in any order, from whatever category, with whatever tags, from any author, including custom post types! On top of all this, there are 3 different modes to display the posts, including a handy dandy shortcode for use in a widget. 
+
+<h3>Features</h3>
+<strong>Three Viewing Modes</strong> display posts in a short listing, with the recent posts shortcode. Alternately, show recent posts using the section itself. Or, display the posts in full, with comments that open in a drawer without a page refresh. You can also toggle Grid Mode, and will show the posts in a grid with masonry and with built in sharing functions.
+
+<strong>Social Sharing</strong> Grid Mode has built-in sharing functions that slide into view allowing viewers to instantly share to Twitter, Facebook, and via Email. More social sharing features are on the way!
+
+<strong>Hide Stuff</strong> Tailor the section to whatever application you'd like to use it for. You can choose to hide the title, date, content, comments, and more providing you with full control over the appearence.
+
+<strong>AnyRecent Posts Shortcode</strong> Swap out your sites main loop for Any Loop and use full posts mode to make AnyLoop your sole loop provider. Extend this even further with the AnyRecent Posts Shortcode. Place this shortcode into a text widget and utilize recent posts in a sidebar alongside using AnyLoop as the main loop! Use the shortcode as its default state to show the last 5 recent posts, or extend the shortcode with any of the 5 attributes available. 
+
+<code>[[anyloop-recent limit="" category="" tag="" author="" cpt=""]]</code>
+
+* limit = number of posts to show
+* category = category of posts to show (multiple by comma)
+* tag = post to show via tag (multiple by comma)
+* author = post to show via author (multiple by comma)
+* cpt = post to show via custom post types (multiple by comma)
+
+
+<h3>Tips for Use</h3>
+* To use as the main loop for your site, swap out all instances of PostLoop for AnyLoop, in Drag and Drop in PageLines Wordpress admin. AnyLoop will then be used for all posts, single, and archive pages.
+* Use the section to show posts from a specific category in grid mode in the content, then clone the section and use it to display something different in the sidebar. AnyLoop will work in any content area.
+
+<h3>Support</h3>
+Please do not leave a review as a support question; they are for reviews. I am not notified of these reviews, and I have no way to respond to you. Please <strong>do not email me for support</strong>, because you will not receive a reply. 
+
+== Changelog ==
+
+= 1.0.5 =
+* Better description of how to exclude tags
+
+= 1.0.4 =
+* Change masonry selector to article, instead of .post, to accommodate post-type plugins that aren't using post_class(); function
+
+= 1.0.3 =
+* Fix thumbnail in shortcode
+
+= 1.0.2 =
+* Fixed shortcode output
+
+= 1.0.1 =
+* Bug fixes
+
+= 1.0 =
+* Initial release

@@ -1,0 +1,133 @@
+== Description ==
+
+Grid Shortcodes makes creating responsive markup quick and easy.
+
+<h3>Usage</h3>
+
+To begin, open a row:
+<code>[row]</code>
+
+The row will fill the full width of it's container.
+
+Then add in your &lt;spanX&gt; tags, where X is the number of columns (out of 12) you wish the cell to span.
+
+To create two cells that are half of the row, use 2 span6 shortcodes, like so:
+
+<pre>
+[span6]some content in the first cell.[/span6]
+[span6]some content in the second cell.[/span6]
+</pre>
+
+Then close the row:
+<code>[/row]</code>
+
+<p class="zmt"><small><span class="label label-info">Note:</span> Grids can go anywhere -- in your header, footer, sidebars, or even inside other grids!</small></p>
+
+<h3>Customizing The Grid</h3>
+Custom classes or a unique id can be easily added to any/all of the shortcodes using <code><strong>id</strong></code> and <code><strong>class</strong></code> attributes.
+
+<pre>
+[row id="custom1"]
+	[span12 class="fancy-stuff"]oOOOooo! Aaaahhhh![/span12]
+[/row]
+</pre>
+
+<h3>Nested Grids</h3>
+Nested grids (grids within grids), need to use unique shortcode tag names to keep the wordpress shortcode parser from breaking the nested shortcode structure.
+
+For example, this will BREAK:
+<pre>
+[row]
+&nbsp;&nbsp;&nbsp;&nbsp;[span3]on the left[/span3]
+&nbsp;&nbsp;&nbsp;&nbsp;[span6]
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[row]
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[span12]hi there[/span12]
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[/row]
+&nbsp;&nbsp;&nbsp;&nbsp;[/span6]
+&nbsp;&nbsp;&nbsp;&nbsp;[span3]on the right[/span3]
+[/row]
+</pre>
+
+Because there is a [row] inside a [row], the first [row] will be parsed incorrectly to end at the first [/row].
+To prevent this from happening, use this simple naming scheme to alter the shortcode name to make it unique for each level of depth (nesting). <code>[tag<strong>_x</strong>]</code> (where x is any lowercase letter a-z).
+<pre>
+[row]
+&nbsp;&nbsp;&nbsp;&nbsp;[span3]on the left[/span3]
+&nbsp;&nbsp;&nbsp;&nbsp;[span6]
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>[row_a]</strong>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[span12]hi there[/span12]
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>[/row_a]</strong>
+&nbsp;&nbsp;&nbsp;&nbsp;[/span6]
+&nbsp;&nbsp;&nbsp;&nbsp;[span3]on the right[/span3]
+[/row]
+</pre>
+
+The inner row uses [row_a] so it will not be confused with the first higher-level [row] tag.
+This applies to all of the spanX tags as well.
+
+In the example above, the [span3] shortcodes do not need to be different as they are at the same level of depth.
+
+<h3>Wrapping Inner Content</h3>
+
+The padding for individual span cells is fixed by the styling that creates the Grid.  If the padding is increased on a span<em>X</em>, it will in cause the overall span's width to be larger and break the Grid.  If you want to increase padding inside of a given span, the only way is to wrap that span's inner content in a containing element.  
+
+Grid Shortcodes now supports a <code>pad</code> attribute, which when used, will wrap that span's inner content in a div and give it the class that you specify in that attribute like so: 
+<pre>[span4 pad="my-container"]
+some inner content
+[/span4]
+</pre>
+
+This shortcode would produce a span4 cell that has it's inner content wrapped with a <code>div</code> with a class of <code>my-container</code>.
+
+<strong>More About Inner Wrapping</strong>
+
+<ul>
+<li>Any value of the <code>pad</code> attribute will activate the wrapping of the inner content.</li>
+<li>The applied container div that the inner content is wrapped with does not apply any kind of default styling, it just adds classes to do so with using your own CSS/LESS.</li>
+</ul>
+
+<strong>Quick Wrapping</strong>
+
+For quick activation of inner wrapping when no custom classes are needed, you can use the <code>pad</code> attribute without any defined value at all like this: 
+
+<pre>[span4 pad]
+some inner content
+[/span4]
+</pre>
+
+This will activate the inner wrapping and apply 2 default classes: <code>span-pad</code> and <code>spanX-pad</code>.
+
+To use this method the attribute <em>must</em> be alone as shown and without the <code>=""</code> &mdash; which would cause the container to have no classes assigned to it.
+
+<h3>A Note About AUTOP (Automatic Paragraphs) For The Concerned</h3>
+No need to worry about these messing up your shortcodes. You don't need to place them all on one line, they can be broken up with new lines and tabs to your heart's content.  Whitespace at the beggining & end of each shortcut is ignored, but is preserved inside.
+
+<h3>Reference</h3>
+
+Here is a list of spanX shortcode tags with their corresponding widths and even number of columns where applicable:
+
+<pre>
+[span1]  = 1/12   ~8% - 12 columns
+[span2]  = 1/6   ~17% - 6  columns
+[span3]  = 1/4    25% - 4  columns
+[span4]  = 1/3    33% - 3  columns
+[span5]  = 5/12  ~42%
+[span6]  = 1/2    50% - 2  columns
+[span7]  = 7/12  ~58%
+[span8]  = 2/3    66%
+[span9]  = 3/4    75%
+[span10] = 5/6   ~83%
+[span11] = 11/12 ~92%
+[span12] = 1/1   100% - 1  column
+</pre>
+
+== Changelog ==
+
+= 1.2 =
+* Added better support for nested grids.
+
+= 1.1 =
+* Added the <code>pad</code> attribute for wrapping inner content.
+
+= 1.0 =
+* Initial release
