@@ -1,0 +1,289 @@
+// Wide Slider
+#site .section-wicker {
+	overflow:hidden;
+
+	.content {
+		z-index:9;
+		background: transparent;
+		max-width:100%;
+	}
+
+	.content-pad {
+		padding:0;
+	}
+
+	.wicker {
+
+		&.hide-patt {
+			background:none !important; // we have to call important becuase we're overriding an inline style :();
+ 		}
+	}
+
+	.wicker-slides {
+	  	position: relative;
+	  	list-style: none;
+	  	overflow: hidden;
+	  	width: 100%;
+	  	padding: 0;
+	  	margin: 0;
+	  	z-index:-1;
+
+		li {
+		  	position: absolute;
+		  	display: none;
+		  	width: 100%;
+		 	 left: 0;
+		 	 top: 0;
+			&:first-child {
+			  	position: relative;
+			  	display: block;
+			  	float: left;
+			}
+		}
+
+		img {
+			display: block;
+		  	height: auto;
+		 	float: left;
+		  	width: 100%;
+		  	border: 0;
+		}
+	}
+
+	.wicker_nav {
+		position:absolute;
+		top:0;
+		text-align: center;
+		width:100%;
+		margin-top:20px;
+		li {
+			display: inline;
+			padding: 0px 10px;
+
+			a {
+				font-size: 13px;
+				text-transform: uppercase;
+				color:@white;
+				opacity:0.7;
+
+				&:hover {
+					opacity:0.9;
+				}
+				&:active {
+					opacity:1;
+				}
+			}
+		}
+
+		&.wicker-left {
+			margin-left:20px;
+			float:left;
+		}
+
+		&.wicker-right {
+			float:right;
+			margin-right:20px;
+		}
+	}
+
+}
+
+// Has Menu and Hero
+#site .section-wicker .has-menu.has-hero {
+	.wicker_nav{
+		background:fadeout(@pl-base,30);
+		margin-top: 0;
+		z-index:16;
+		height:25px;
+		.box-shadow(0 5px 5px -5px rgba(0,0,0,0.15));
+
+		li {
+			line-height: 24px;
+		}
+
+		a {
+			color:fadeout(@pl-header,20);
+			padding:4px 10px;
+
+			&:hover {
+				background:fadeout(@pl-header,80);
+				.transition(.2s ease-in-out);
+			}		
+		}
+	}
+}
+
+// Hero Option
+.wicker-hero-wrap {
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+
+	h1,p {
+		color:@white;
+		color:fadeout(@white,10);
+	}
+
+	p {
+		padding-left:2px;
+	}
+
+	.wicker-hero-container {
+		max-width:@pl-page-width;
+		margin:0 auto;
+		overflow: hidden;
+		position: relative;
+	}
+
+	.rslides_tabs {
+		text-align: right;
+		max-width:@pl-page-width;
+
+		li {
+			display: inline-block;
+
+			&.rslides_here {
+
+			}
+
+			a {
+				padding:4px 6px;
+			}
+		}
+	}
+
+	&.has-menu {
+		margin-top:12px;
+	}
+}
+
+.wicker-hero-left {
+	padding:50px 0 50px 50px;
+	.box-sizing(border-box);
+	display: inline-block;
+	margin-right:-4px;
+	width:49%;
+}
+
+.wicker-hero-right {
+	padding:50px 50px 50px 0;
+	.box-sizing(border-box);
+	display: inline-block;
+	float:right;
+	overflow: hidden;
+	.transition(height .2s linear);
+}
+
+.wicker-hero-left {
+	padding-right:15px;
+	.box-sizing(border-box);
+}
+
+.wicker-hero-slide {
+	width:100%;
+	-webkit-backface-visibility:hidden;
+
+}
+.section-wicker {
+	.wicker-hero-img {
+		float:right;
+		max-width: 390px
+	}
+}
+
+.wicker-hero-cta a i {
+	float:right;
+	margin-left:10px;
+}
+
+
+@media (max-width:800px) {
+
+	#site .section-wicker {
+
+		.content {
+			width:100%;
+		}
+
+		.wicker-hero-wrap {
+			.wicker-hero-left {
+				width:100%;
+				display:block;
+
+				h1,p {
+					width:70%;
+					float:left;
+				}
+
+				.wicker-hero-cta {
+					margin-left:2%;
+					width:25%;
+					float:left;
+				}
+			}
+			.wicker-hero-right {
+				display:none;
+			}
+		}
+
+		.wicker-hero-left {
+			padding:20px 0 20px 20px;
+		}
+
+		.wicker-hero-right {
+			padding:20px 20px 20px 0;
+		}
+
+	}
+
+}
+
+@media (max-width:600px) {
+	.responsive #site .section-wicker {
+		.wicker_nav {
+			margin-top:10px;
+			li a {
+				font-size:11px;
+			}
+		}
+		.wicker-hero-wrap {
+			.wicker-hero-left {
+				p {
+					width:60%;
+				}
+				h1 {
+					font-size:28px;
+				}
+
+				p {
+					line-height:16px;
+				}
+			}
+			.wicker-hero-cta {
+				text-align: center;
+				width:36%;
+			}
+			&.has-menu {
+				margin-top: 25px;
+			}
+		}
+
+	}
+}
+
+@media (max-width:480px) {
+	.responsive #site .section-wicker .wicker-hero-wrap .wicker-hero-container {
+		.wicker-hero-left {
+			h1 {display: none;}
+			p {font-size:13px;}
+			.wicker-hero-cta a {
+				padding: 4px 10px 4px;
+				font-size: 13px;
+				.border-radius(3px);
+			}
+		}
+
+	}
+
+}
