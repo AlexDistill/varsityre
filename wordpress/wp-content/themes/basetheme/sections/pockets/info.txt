@@ -1,0 +1,56 @@
+== Description ==
+
+Pockets provides content authors with the tools they need to display powerful stories, or "pockets" of info. These can be anything from a portfolio of web work, to recipes, listings, and more. Pockets is truly 100% universal in it's use.
+
+<span class="label label-info">Video</span> <a href="http://pockets.nichola.us/video-overview/" target="_blank" title="Pockets Video Overview">http://pockets.nichola.us/video-overview/</a>
+
+<h3>Setup</h3>
+1. Head to Drag & Drop, and locate Pockets and Pockets Archive. Switch out PostLoop, for Pockets in both instances.
+2. Go to Page Options--->Pockets, and set your slugs.
+3. Create a pocket on the left, and choose a layout for the pocket. Continue following instructions on single Pocket Options panel on single Pocket page.
+4. Note: Pockets best served with Full Width mode (i.e., no sidebars). In other words, there is currently no sidebar support. The single layouts are just not built to have a sidebar, and the idea was to keep things as clean as possible. Feel free to utilize the Additional Content option to add shortcodes and more to the sidebar that is built into the section. Sidebars have not been disabled, in the event the user wants to make sidebars work on their own.
+
+<h3>Features</h3>
+<strong>Universal Usage</strong>
+Pockets allows you to rename the main slug so it's not called pockets. Name it to clients, cats, or whatever suits your fancy.
+
+<strong>Multiple Views</strong>
+Choose 1 of 2 incredible layouts for a single post, then use the archive view, or included shortcodes to achieve many more types of different views.
+
+<strong>Masonry + Isotope</strong>
+The archives view of Pockets is run with the categories that you setup for your posts. These are then shown and filtered with Isotope.
+
+<strong>Powerful Shortcodes</strong>
+<ul class="unstyled" style="padding-left:10px;">
+<li><span style="text-decoration:underline;font-style:italic;">List Shortcode:</span> Output a styled, list-type multi-view of your Pockets archive. Available attributes include 'number' and 'display'. The "display" attribute accepts <strong>horizontal</strong>, <strong>vertical</strong>, and <strong>grid</strong>. The "number" attribute accepts a numeric value. This is the number of posts you want to show. <code>[pocket_list number="5" display="horizontal"]</code></li>
+<li style="margin-top:10px;"><span style="text-decoration:underline;font-style:italic;">Carousel Shortcode:</span> Output a carousel type view of your post archives. Available attributes include 'number'. The "number" attribute accepts a numeric value. This is the number of posts you want to show. <code>[pocket_carousel number="5"]</code>
+</li>
+</ul>
+
+<strong>Built-in Sharing</strong>
+Pockets has a system that tallies the number of shares on Facebook & Twitter and displays as a total, complete with social network sharing.
+
+<strong>Custom Post Galleries</strong>
+Each single post has the ability to show a full featured gallery complete with title, captions, and gallery navigation controls.
+
+<strong>Amazingly Responsive</strong>
+A lot of development time was spent with Pockets on the responsive touches, making this one amazingly responsive section.
+
+<strong>Detailed Documentation</strong>
+There's docs in the Options Panel, docs in the Global Panel, and an online Docs guide with basically the same info as found within the section. There's also an overview video to top it all off. 
+
+<span class="label label-info">Demo</span> <a href="http://pockets.nichola.us" title="Pockets Demo" target="_blank">http://pockets.nichola.us</a>
+
+
+== Changelog ==
+
+= 1.0.2 =
+* Added categories attribute to [pocket_list] shortcode
+* Fixed categories not showing in wp-admin columns
+
+= 1.0.1 =
+* Added Pockets Archive to Page Options to control layout
+* 'Next/Previous Post', and 'Share Post' text now reflects slug
+
+= 1.0 =
+* Initial release
